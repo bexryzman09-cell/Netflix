@@ -1,18 +1,24 @@
-import { useFavorites } from "./FavoriteContext"
+import { useFavorites, type Movie } from "./FavoriteContext"
 
-export default function FavoriteButton({ movie }) {
-    const { toggleFavorite, isFavorite } = useFavorites()
+type FavoriteButtonProps = {
+  movie: Movie
+}
 
-    return (
-        <button
-            type="button"
-            className="z-10 favorite-button"
-            onClick={(e) => {
-                e.stopPropagation()
-                toggleFavorite(movie)
-            }}
-        >
-            {isFavorite(movie) ? "★" : "☆"}
-        </button>
-    )
+export default function FavoriteButton({
+  movie,
+}: FavoriteButtonProps) {
+  const { toggleFavorite, isFavorite } = useFavorites()
+
+  return (
+    <button
+      type="button"
+      className="z-10 favorite-button"
+      onClick={(e) => {
+        e.stopPropagation()
+        toggleFavorite(movie)
+      }}
+    >
+      {isFavorite(movie) ? "★" : "☆"}
+    </button>
+  )
 }

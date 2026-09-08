@@ -1,26 +1,77 @@
-import { createContext, useContext, useEffect, useState } from "react"
+import {
+    createContext,
+    useContext,
+    useEffect,
+    useState,
+    type ReactNode,
+} from "react"
 
-const FavoriteContext = createContext(null)
+export type Movie = {
+    title: string
+    russianTitle?: string
+    year: number
+    rating: number
+    type?: string
+    trailerYoutubeId?: string
+    image: string
+    description?: string
+    genres?: string[]
+    video?: string
+}
 
-export function FavoriteProvider({ children }) {
-    const [favorites, setFavorites] = useState(() => {
+type FavoriteContextType = {
+    favorites: Movie[]
+    toggleFavorite: (movie: Movie) => void
+    isFavorite: (movie: Movie) => boolean
+}
+
+const FavoriteContext = createContext<
+    FavoriteContextType | undefined
+>(undefined)
+
+type FavoriteProviderProps = {
+    children: ReactNode
+}
+
+export function FavoriteProvider({
+    children,
+}: FavoriteProviderProps) {
+    const [favorites, setFavorites] = useState<Movie[]>(() => {
         const saved = localStorage.getItem("favorites")
-        return saved ? JSON.parse(saved) : []
+
+        if (!saved) {
+            return []
+        }
+
+        try {
+            return JSON.parse(saved) as Movie[]
+        } catch {
+            return []
+        }
     })
 
     useEffect(() => {
-        localStorage.setItem("favorites", JSON.stringify(favorites))
+        localStorage.setItem(
+            "favorites",
+            JSON.stringify(favorites)
+        )
     }, [favorites])
 
-    function toggleFavorite(movie) {
+    function toggleFavorite(movie: Movie) {
         setFavorites((prev) => {
             const exists = prev.some(
-                (item) => item.title === movie.title
+                (item) =>
+                    item.title === movie.title &&
+                    item.year === movie.year
             )
 
             if (exists) {
                 return prev.filter(
-                    (item) => item.title !== movie.title
+                    (item) =>
+                        !(
+                            item.title === movie.title &&
+                            item.year === movie.year
+                        )
                 )
             }
 
@@ -28,9 +79,11 @@ export function FavoriteProvider({ children }) {
         })
     }
 
-    function isFavorite(movie) {
+    function isFavorite(movie: Movie) {
         return favorites.some(
-            (item) => item.title === movie.title
+            (item) =>
+                item.title === movie.title &&
+                item.year === movie.year
         )
     }
 
@@ -39,7 +92,7 @@ export function FavoriteProvider({ children }) {
             value={{
                 favorites,
                 toggleFavorite,
-                isFavorite
+                isFavorite,
             }}
         >
             {children}
@@ -48,5 +101,13 @@ export function FavoriteProvider({ children }) {
 }
 
 export function useFavorites() {
-    return useContext(FavoriteContext)
+    const context = useContext(FavoriteContext)
+
+    if (!context) {
+        throw new Error(
+            "useFavorites must be used inside FavoriteProvider"
+        )
+    }
+
+    return context
 }

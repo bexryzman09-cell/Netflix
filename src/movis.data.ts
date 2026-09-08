@@ -1,3 +1,4 @@
+
 export const MOVIES = [
     {
         title: 'Venom',

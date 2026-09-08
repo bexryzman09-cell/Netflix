@@ -1,26 +1,39 @@
 import MovieCard from "../MovieCard"
-import { useFavorites } from "../FavoriteContext"
+import { useFavorites, type Movie } from "../FavoriteContext"
 
 type FavoritePagesProps = {
     onBack: () => void
-    onSelect: (movie: any, mode?: "details" | "movie" | "trailer") => void
+    onSelect: (
+        movie: Movie,
+        mode?: "details" | "movie" | "trailer"
+    ) => void
 }
 
-export default function FavoritePages({ onBack, onSelect }: FavoritePagesProps) {
+export default function FavoritePages({
+    onBack,
+    onSelect,
+}: FavoritePagesProps) {
     const { favorites } = useFavorites()
 
     return (
         <div className="bg-black dark:text-white text-black movie-page">
             <header className="movie-header">
-                <button type="button" onClick={onBack} className="theme-button">
+                <button
+                    type="button"
+                    onClick={onBack}
+                    className="theme-button"
+                >
                     ←
                 </button>
-                <h1 className="text-white">Избранное ⭐</h1>
+
+                <h1 className="text-white">
+                    Избранное ⭐
+                </h1>
             </header>
 
             <div className="movies-container">
                 {favorites.length > 0 ? (
-                    favorites.map((movie, index) => (
+                    favorites.map((movie: Movie, index: number) => (
                         <MovieCard
                             key={`${movie.title}-${movie.year}-${index}`}
                             image={movie.image}
