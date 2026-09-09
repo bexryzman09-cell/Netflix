@@ -10,7 +10,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2lpTGwTNKDVk_hkFr415LaAoTzLQO4e3EvPSSg4djBQ&s=10',
         description: 'Эдди Брок продолжает существовать бок о бок с Веномом, сталкиваясь с новыми угрозами и последствиями их необычного союза.',
         genres: ['Боевик', 'Фантастика', 'Триллер'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-230098113&id=456244448&hd=4'
     },
     {
         title: 'The Batman',
@@ -22,7 +22,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9JD7I1hcIkB162wgSNzgv-nVJ5G4zE89Ii6zCulIPgw&s=10',
         description: 'Бэтмен расследует опасное дело в Готэме и сталкивается с преступниками, тайнами и угрозой, которая проверит его пределы.',
         genres: ['Боевик', 'Криминал', 'Триллер'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-236909160&id=456239210&hd=4'
     },
     {
         title: 'Venom 2',
@@ -34,7 +34,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfw3HIN4JJgGDbe8qUgyEcNLvBoNvBp60fiyuvoWx23w&s=10',
         description: 'Эдди Брок продолжает существовать бок о бок с Веномом, сталкиваясь с новыми угрозами и последствиями их необычного союза.',
         genres: ['Боевик', 'Фантастика', 'Триллер'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-227267093&id=456240517&hd=4'
     },
     {
         title: 'Spiderman: No Way Home',
@@ -46,7 +46,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUn4jc67SWH2HL1Q191TtjMi9e_W08OKpcO8oMurXBJA&s=10',
         description: 'Питер Паркер пытается совмещать обычную жизнь с обязанностями супергероя, пока новое приключение не ставит под угрозу всё вокруг.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-219966194&id=456240939&hd=4'
     },
     {
         title: 'Flash',
@@ -58,7 +58,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb8hlA3_Q9meWm7_zMrGV7eS_Pb5HZV_XaZagnNIgwpQ&s=10',
         description: 'История «Флэш» — приключение с героями, испытаниями и событиями, которые меняют их жизнь.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-186400980&id=456243632&hd=4'
     },
     {
         title: '1 + 1',
@@ -118,7 +118,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3xczZ7KzDO8vfmHRA03zzifmaQIKtx6jvv8CMUpcT4Q&s=10',
         description: 'История «дэдпул» — приключение с героями, испытаниями и событиями, которые меняют их жизнь.',
         genres: ['Боевик', 'Комедия', 'Фантастика'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-220018529&id=456239435&hd=4'
     },
     {
         title: 'Deadpool 2',
@@ -130,7 +130,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxkbHvPQiLqJC7Bg1SCxCqk9BGMh2nN9qk5MuC40QOng&s=10',
         description: 'История «дэдпул 2» — приключение с героями, испытаниями и событиями, которые меняют их жизнь.',
         genres: ['Боевик', 'Комедия', 'Фантастика'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-220018529&id=456248874&hd=4'
     },
     {
         title: 'Deadpool & Wolverine',
@@ -142,7 +142,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqMpXu5uftov4JuW_v_M4d8GT-W8gKQFan-5e1XjQi6A&s=10',
         description: 'История «дэдпул & росамаха» — приключение с героями, испытаниями и событиями, которые меняют их жизнь.',
         genres: ['Боевик', 'Комедия', 'Фантастика'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-198329510&id=456248812&hd=4'
     },
     {
         title: 'Spiderman: Homecoming',
@@ -625,7 +625,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ26f5mqyipM-DWEJcv1V80HeGC-O31Y9QmIQLXoJGUFg&s=10',
         description: 'Герой оказывается в необычном мире и получает шанс начать новую жизнь, сталкиваясь с магией, приключениями и опасными противниками.',
         genres: ['Фэнтези', 'Приключения', 'Экшен'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-240004720&id=456239299&hd=4'
     },
     {
         title: 'Isekai Quartet: The Movie - Another World',
