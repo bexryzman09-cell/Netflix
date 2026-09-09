@@ -938,7 +938,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTANtHLlJduZxf1hb_Xk31O5c1Kwoady62uwboqPYrlug&s=10',
         description: 'Героиня оказывается в необычном мире и собирает команду авантюристов, полную комических ситуаций.',
         genres: ['Фэнтези', 'Приключения', 'Комедия'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-207641791&id=456239095&hd=4'
     },
 
     {
@@ -964,7 +964,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNerKfmv5hOXAiTEkjey8ExdUYENr58D9UxXDbK2eBXg&s=10',
         description: 'Мужчина перерождается в слизь и создаёт собственное королевство, строя отношения с другими монстрами.',
         genres: ['Фэнтези', 'Приключения', 'Комедия'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-238771779&id=456256382&hd=4'
     },
 
     {
@@ -990,7 +990,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCzJKX92O1hIdYbXIzZy7tjXa1Nl4fcFxYSrqNZz_5IQ&s',
         description: 'Владыка демонов просыпается в другом мире и строит свою империю с помощью магии и стратегии.',
         genres: ['Фэнтezi', 'Приключения', 'Комедия'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-229107040&id=456241432&hd=3'
     },
 
     {
@@ -1003,7 +1003,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIK_76OPmFmkO39j6oM81AzJoiPvDB_pafOi_3ElJh6Q&s=10',
         description: 'Двое геймеров переносятся в мир, где всё решается через игры, и они используют свои навыки.',
         genres: ['Фэнтezi', 'Приключения', 'Фантастика'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-125699060&id=456239332&hd=4'
     },
 
     {
@@ -1016,7 +1016,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyHQp-mcyeFME99rUwjUvPe4y8fZR6v3G8A9lfHAHPJw&s=10',
         description: 'Юноша переносится в другой мир и получает божественные способности, становясь всё сильнее.',
         genres: ['Фэнтezi', 'Приключения', 'Боевик'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-229696756&id=456240482&hd=4'
     },
 
     // =========================
@@ -1033,7 +1033,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzmYOGLnqSMYKQ1I7v4uWN45JBc4DZraFXpP0y1_22Aw&s=10',
         description: 'Слабый охотник получает возможность повышать уровень и постепенно становится одним из сильнейших.',
         genres: ['Боевик', 'Фэнтezi', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-228480727&id=456239233&hd=4'
     },
 
     {
@@ -1046,7 +1046,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_6Suh7UUhChEf1xuGkyXqDb6_pLLYuQw2y_GCRH-HvQ&s=10',
         description: 'Люди сражаются с гигантскими титанами за стенами крепостей, раскрывая тайны мира.',
         genres: ['Боевик', 'Фэнтezi', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-241001394&id=456239260&hd=3'
     },
 
     {
@@ -1059,7 +1059,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRquicJTnq3ag9kUvAEKYjaj_xZdkcg--W_qFIwMzkh6A&s',
         description: 'Юноша становится сосудом проклятого духа и учится борьбе с демонами в специальной школе.',
         genres: ['Боевик', 'Фэнтezi', 'Сверхъестественное'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-229696756&id=456251957&hd=1'
     },
 
     {
@@ -1072,7 +1072,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4wTLqaYtj818T35R1w-keMMmLyNyk0piU1qHxQi93_g&s=10',
         description: 'Юноша отправляется в путь, чтобы спасти сестру от демонов и станет опасным воином.',
         genres: ['Боевик', 'Фэнтezi', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-125699060&id=456239610&hd=4'
     },
 
     {
@@ -1085,7 +1085,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW_VQJisoab_M07ZzRUqQy3dIV0zzz0AWlSsam9sQCaQ&s',
         description: 'Мальчик без суперспособностей поступает в героическую академию и развивает свои способности.',
         genres: ['Боевик', 'Фэнтezi', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-125699060&id=456239534&hd=4'
     },
 
     {
@@ -1098,7 +1098,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFrl3TE_S8i3M8xJprBfsJ0j_HtU8YCIA5VPUpZE3NAA&s=10',
         description: 'Парень без магии становится магом и присоединяется к рыцарям, доказывая, что решимость важнее способностей.',
         genres: ['Боевик', 'Фэнтezi', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-125699060&id=456239498&hd=4'
     },
 
     {
@@ -1137,7 +1137,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm-1K1Bdp0-atDt0-nxq0WGueoleV7ZzbYQ_WZVLLOYQ&s=10',
         description: 'Герой стал настолько сильным, что побеждает врагов одним ударом, ища достойного соперника.',
         genres: ['Боевик', 'Комедия', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-228960769&id=456239045&hd=4'
     },
 
     {
@@ -1150,7 +1150,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3eQ90Ck-We4TL0RheKQvJ-JyeiqaG0jodLhVioZiMSw&s=10',
         description: 'Тихий школьник с психическими способностями учится контролировать эмоции и силу.',
         genres: ['Боевик', 'Фэнтezi', 'Комедия'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-214562955&id=456309205&hd=4'
     },
 
     {
@@ -1163,7 +1163,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYr2O184OoH6fqHYKp5xDJCabx89OT-Z322hVePzTRJQ&s=10',
         description: 'Юноша становится охотником на демонов и обретает необычные способности.',
         genres: ['Боевик', 'Фэнтezi', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-213378164&id=456240234&hd=4'
     },
 
     // =========================
@@ -1180,7 +1180,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSvEFeUJI9QlbkfVwAYbPLZh_SMw0Ao-OfCxd3HUET-w&s',
         description: 'Юноша находит сверхъестественную тетрадь и начинает борьбу умов с гениальным детективом.',
         genres: ['Триллер', 'Психологический', 'Мистика'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-213378164&id=456240234&hd=4'
     },
 
     {
@@ -1193,7 +1193,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXAGWh3oxSoym5Brz6Sjvnl5J3s8wu9lY-Jx7_4ZgxgQ&s=10',
         description: 'Юноша получает власть управлять людьми и использует её в революции против оккупантов.',
         genres: ['Боевик', 'Психологический', 'Мистика'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-125699060&id=456239343&hd=4'
     },
 
     {
@@ -1206,7 +1206,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn8Awgm1LB0de4VEbTvPXz-FLh3zD1M4qB4VFklLWaJw&s=10',
         description: 'Человек становится гулем и вынужден приспосабливаться к жизни среди монстров.',
         genres: ['Триллер', 'Драма', 'Мистика'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-125699060&id=456239357&hd=4'
     },
 
     {
@@ -1219,7 +1219,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEgsSlIaXxMeu9d39m3_jdirLPSZ_TYVc5gVe5xUqQvA&s=10',
         description: 'Дети обнаруживают темный секрет своего приюта и планируют побег.',
         genres: ['Триллер', 'Мистика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-217873238&id=456244080&hd=4'
     },
 
     {
@@ -1232,7 +1232,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-D5EGjX77w50kGuizze4PdH0Gl3VYrxCXNECSnsPMiA&s=10',
         description: 'Молодой человек получает способность путешествовать во времени и пытается предотвратить серьёзное преступление.',
         genres: ['Триллер', 'Мистика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-125699060&id=456239177&hd=4'
     },
 
     {
@@ -1245,7 +1245,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCmKuU-WtPqI8a-w_tz9Ss-ZjK_ilRpGOUs-dYZzlbNA&s=10',
         description: 'Мрачная история воина, который теряет всё и становится охотником на демонов.',
         genres: ['Триллер', 'Драма', 'Мистика'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-125699060&id=456239820&hd=4'
     },
 
     // =========================
@@ -1262,7 +1262,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIqtlka8yRHYKNZS_kQpLZVpqnjBnxOZ8c7exBhXGFwQ&s=10',
         description: 'Двое гениальных школьников играют психологические игры, скрывая взаимные чувства.',
         genres: ['Романтика', 'Комедия', 'Школа'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-131232673&id=456243346&hd=4'
     },
 
     {
@@ -1275,7 +1275,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMGTnlHlc6T2UZ1YzvCkY5gt3wmwxnfh0FJvi0GpL-xg&s=10',
         description: 'Музыкант и скрипачка находят друг друга и открывают новое счастье через музыку.',
         genres: ['Романтика', 'Драма', 'Школа'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-205333784&id=456239960&hd=4'
     },
 
     {
@@ -1288,7 +1288,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLbaxszzsIdSyns9w-aHgdOmNFATgpWl77aybQXH-KeQ&s',
         description: 'Двое школьников открывают друг для друга совершенно новые стороны своих личностей.',
         genres: ['Романтика', 'Комедия', 'Школа'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-229696756&id=456253025&hd=4'
     },
 
     {
@@ -1370,7 +1370,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwB-9dZp6pxNHzVWJoDVKc4t7IEcsXt8XJLvITiOam3w&s',
         description: 'Школьник получает способности шинигами и защищает людей от духов.',
         genres: ['Боевик', 'Фэнтezi', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-231962622&id=456239109&hd=4'
     },
 
     {
@@ -1396,7 +1396,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvW7m6xdO2SykZ93z_-AgksFSzW6DjOubwx06ObRmUKA&s=10',
         description: 'После катастрофы юноша и его друг пытаются восстановить цивилизацию с помощью науки.',
         genres: ['Боевик', 'Фэнтezi', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-125699060&id=456239555&hd=4'
     },
 
     {
@@ -1439,7 +1439,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdfxibbwfiKBTWJhOB81r0A4GigpCJoORpYicOSdcVnw&s=10',
         description: 'Учитель химии начинает производить метамфетамин, и его жизнь спирально падает.',
         genres: ['Криминал', 'Драма', 'Триллер'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-221125343&id=456263998&hd=4'
     },
 
     {
@@ -1452,7 +1452,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlgpU_xaFx8S41ZEIbJafv75FC2HK5BykClytz10uOwQ&s=10',
         description: 'Группа друзей расследует таинственное исчезновение в маленьком городке с научной базой.',
         genres: ['Фантастика', 'Ужасы', 'Драма'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-220020068&id=456259179&hd=3'
     },
 
     {
@@ -1465,7 +1465,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT84AvP-Hhrn8ENoUbyugC0sgXuBpx8Gspl0mAGBYZEVg&s=10',
         description: 'Охотник на монстров путешествует по опасному миру, выполняя заказы и раскрывая судьбы.',
         genres: ['Фэнтezi', 'Драма', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-80021931&id=456247434&hd=4'
     },
 
     {
@@ -1530,7 +1530,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTktMETvEgI4KK4K1n08QZxaesN5EsEf-QFhTrwCiWnkA&s',
         description: 'Криминальная семья постепенно расширяет своё влияние в Бирмингеме после Первой мировой войны.',
         genres: ['Криминал', 'Драма', 'История'],
-        video: ''
+        video: '/https://vkvideo.ru/video_ext.php?oid=-224560904&id=456240697&hd=4'
     },
 
     {
@@ -1543,7 +1543,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFyxVwooror4nBw1nkhkLLKFweqm6SPQdyztRGcXYZ2Q&s=10',
         description: 'Современная интерпретация классической истории о Шерлоке Холмсе и его расследованиях.',
         genres: ['Детектив', 'Драма', 'Криминал'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-239995758&id=456239221&hd=4'
     },
 
     {
@@ -1556,7 +1556,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuEnoaqyF-C3SQHHagCx41YWe41RAfB2GqAiTyj2zlVg&s',
         description: 'Исчезновение ребенка раскрывает сложные связи между прошлым, настоящим и будущим в маленьком городе.',
         genres: ['Фантастика', 'Детектив', 'Триллер'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-175564183&id=456240377&hd=3'
     },
 
     {
@@ -1569,7 +1569,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv-XowlKqlT3FgImsFq2h3zjPVevY8-DHxnpcbo8aIzA&s',
         description: 'Загадочный Профессор собирает команду для грандиозного ограбления королевского монетного двора.',
         genres: ['Криминал', 'Драма', 'Триллер'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-232031911&id=456239156&hd=4'
     },
 
     {
@@ -1582,7 +1582,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVAWJ63BgUaIrzlWKSF0-R9Bd6rpt-ILSWInr3kNv2LQ&s',
         description: 'Безработные участники играют в опасные игры, чтобы выиграть огромный призовой фонд.',
         genres: ['Триллер', 'Драма', 'Мистика'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-236419130&id=456239523&hd=4'
     },
 
     {
@@ -1595,6 +1595,559 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpse79uQ_gn-B5ymfuAxqm1GTh-DIhq_hT89QFXKiLmg&s=10',
         description: 'Охотник за головами путешествует по галактике, защищая загадочного маленького существо.',
         genres: ['Фантастика', 'Приключения', 'Боевик'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-224492019&id=456243388&hd=4'
+    },
+    {
+        title: 'Fire Force',
+        russianTitle: 'Пламенная бригада пожарных',
+        year: 2019,
+        type: 'anime',
+        rating: 8.0,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpQ9L8ZXQ-3IJVV2D4vVAZ6X0X04Utb1G_6BXUClFboQ&s=10',
+        description: 'В мире, где люди внезапно превращаются в огненных существ, специальные пожарные отряды сражаются с пламенными монстрами.',
+        genres: ['Экшен', 'Фэнтези', 'Приключения'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-238771780&id=456251854&hd=4'
+    },
+    {
+        title: 'The Case Study of Vanitas',
+        russianTitle: 'Мемуары Ванитаса',
+        year: 2021,
+        type: 'anime',
+        rating: 8.0,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWtfq0Zc5DdXF93BmWD5Jy6rzwoHLVzR029MHCzOBKHA&s=10',
+        description: 'Молодой вампир отправляется в Париж и встречает загадочного Ванитаса, который утверждает, что способен исцелять вампиров.',
+        genres: ['Фэнтези', 'Приключения', 'Драма'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-172050720&id=456240122&hd=4'
+    },
+    {
+        title: 'Blue Exorcist',
+        russianTitle: 'Синий экзорцист',
+        year: 2011,
+        type: 'anime',
+        rating: 7.5,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDcKRFIJ4vF3UlfR4bk_GCBNeErKS3dIt8hnW9cUGoag&s=10',
+        description: 'Рин Окумура узнаёт, что является сыном Сатаны, и решает стать экзорцистом, чтобы сражаться с демонами.',
+        genres: ['Экшен', 'Фэнтези', 'Сверхъестественное'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-239785193&id=456239478&hd=4'
+    },
+    {
+        title: 'Hellsing Ultimate',
+        russianTitle: 'Хеллсинг',
+        year: 2006,
+        type: 'anime',
+        rating: 8.3,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYNyiKDz2xcNbekJlvV9xApuE3YGj-D6q0AV34jwYSPw&s=10',
+        description: 'Организация Хеллсинг защищает Британию от сверхъестественных угроз с помощью могущественного вампира Алукарда.',
+        genres: ['Экшен', 'Ужасы', 'Сверхъестественное'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-186400980&id=456243298&hd=4'
+    },
+    {
+        title: 'Haikyuu!!',
+        russianTitle: 'Волейбол!!',
+        year: 2014,
+        type: 'anime',
+        rating: 8.7,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNR0o6zrTQJ2GXMukxH_XiPcQ_EuuxSITp-18Xp02yw&s',
+        description: 'Юный Сёё Хината мечтает стать великим волейболистом и вступает в школьную команду Карасуно.',
+        genres: ['Спорт', 'Комедия', 'Школа'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-228529247&id=456241414&hd=4'
+    },
+    {
+        title: 'Blue Lock',
+        russianTitle: 'Синяя тюрьма: Блю Лок',
+        year: 2022,
+        type: 'anime',
+        rating: 8.2,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRQhtgyy4mqB-IBxqozfpxOGPVruicUJslkpbDHiJsUQ&s=10',
+        description: 'Сотня лучших молодых нападающих Японии участвует в жестоком проекте, созданном для поиска величайшего форварда.',
+        genres: ['Спорт', 'Экшен', 'Драма'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-216080380&id=456239031&hd=4'
+    },
+    {
+        title: 'Kuroko no Basket',
+        russianTitle: 'Баскетбол Куроко',
+        year: 2012,
+        type: 'anime',
+        rating: 8.1,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3rPb2JNeT47zhqJYs9Ak9nr-ENyU931NM61UYc3AD7Q&s=10',
+        description: 'Тэцуя Куроко присоединяется к школьной баскетбольной команде и вместе с Тайгой Кагами пытается победить сильнейших игроков страны.',
+        genres: ['Спорт', 'Комедия', 'Школа'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-229696756&id=456247963&hd=4'
+    },
+    {
+        title: 'The Ancient Magus Bride',
+        russianTitle: 'Невеста чародея',
+        year: 2017,
+        type: 'anime',
+        rating: 8.2,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4Vhbn0yizSa2N6rveolR63cdBXzeIvOSnBacT-fDfFg&s=10',
+        description: 'Девушка, потерявшая надежду, попадает к загадочному магу и начинает новую жизнь в мире магии и фей.',
+        genres: ['Фэнтези', 'Романтика', 'Драма'],
+        video: ''
+    },
+    {
+        title: 'The Healer Who Was Banished',
+        russianTitle: 'Целитель, изгнанный из группы героя',
+        year: 2024,
+        type: 'anime',
+        rating: 7.0,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYbvLGemKZRVS6PObrf_hJ33I4ATUH-T0xfFBt77nuqQ&s=10',
+        description: 'Целителя исключают из команды героя, после чего он начинает самостоятельный путь и раскрывает свои настоящие способности.',
+        genres: ['Фэнтези', 'Приключения', 'Экшен'],
+        video: ''
+    },
+    {
+        title: 'The New Gate',
+        russianTitle: 'Новый врата',
+        year: 2024,
+        type: 'anime',
+        rating: 7.0,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVHNiyLD_JyB9nXaZGEcbQrSN9QC0cOGGQb_jA61DPkw&s=10',
+        description: 'Игрок Шин побеждает финального босса смертельной игры, но оказывается перенесённым в мир, похожий на игру.',
+        genres: ['Исекай', 'Экшен', 'Фэнтези'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-240296288&id=456239030&hd=4'
+    },
+    {
+        title: 'Hell’s Paradise',
+        russianTitle: 'Адский рай',
+        year: 2023,
+        type: 'anime',
+        rating: 8.0,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKDlEWK0Hon3VtphovRdkC0EJ886bc-BwwV0pO5kjig&s=10',
+        description: 'Группа преступников отправляется на загадочный остров в поисках эликсира бессмертия.',
+        genres: ['Экшен', 'Фэнтези', 'Приключения'],    
+        video: ''
+    },
+    {
+        title: 'The Apothecary Diaries',
+        russianTitle: 'Монолог фармацевта',
+        year: 2023,
+        type: 'anime',
+        rating: 8.8,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIIO1_gokIzbKZViAqFqjh8GNeTdrtU-GEa0JoRMZQNg&s',
+        description: 'Умная девушка Маомао благодаря своим знаниям о лекарствах начинает раскрывать тайны императорского дворца.',
+        genres: ['Детектив', 'Драма', 'История'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-125699060&id=456239422&hd=4'
+    },
+    {
+        title: 'My Dress-Up Darling',
+        russianTitle: 'Эта фарфоровая кукла влюбилась',
+        year: 2022,
+        type: 'anime',
+        rating: 8.2,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqkEfqNNwvzppK6wMv1OC-iCaI92u_QMR1lO65ml8dEQ&s=10',
+        description: 'Скромный школьник Вакана знакомится с популярной Мarin, которая просит его помочь создавать костюмы для косплея.',
+        genres: ['Романтика', 'Комедия', 'Школа'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-229696756&id=456247744&hd=4'
+    },
+    {
+        title: 'Gachiakuta',
+        russianTitle: 'Гатиакута',
+        year: 2025,
+        type: 'anime',
+        rating: 8.0,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB2jEIADIMjx61LmCBTsrk1TSXYw-2ohy_udpbKe0Dcg&s=10',
+        description: 'Юноша оказывается выброшен в бездну и должен выжить в опасном мире мусора, где обычные предметы обладают необычными силами.',
+        genres: ['Экшен', 'Фэнтези', 'Приключения'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-234262893&id=456321742&hd=4'
+    },
+    {
+        title: 'Parasyte',
+        russianTitle: 'Паразит',
+        year: 2014,
+        type: 'anime',
+        rating: 8.5,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkBpE4l0TBj4kbIX2HJ0JxMwVwi9ZawMnpt6GHyqKiqA&s=10',
+        description: 'Инопланетные паразиты захватывают тела людей, но один из них не успевает добраться до мозга главного героя.',
+        genres: ['Ужасы', 'Экшен', 'Фантастика'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-231658617&id=456239571&hd=4'
+    },
+    {
+        title: 'The Too-Perfect Saint',
+        russianTitle: 'Хоть я и бездарная злодейка',
+        year: 2025,
+        type: 'anime',
+        rating: 7.4,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPaBkhqRmBX4iuE_svrNIWB_HJokz4_Uxw_BAEIgSGRg&s=10',
+        description: 'Девушка оказывается в мире романтической истории и пытается изменить судьбу персонажа, которого считали злодейкой.',
+        genres: ['Фэнтези', 'Романтика', 'Драма'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-230514630&id=456239418&hd=4'
+    },
+    {
+        title: 'Immortal',
+        russianTitle: 'Бессмертный',
+        year: 2025,
+        type: 'anime',
+        rating: 7.5,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShYNq2BEaq__Hjyp096fmT6IegwK6fpdzAvouhin_czw&s=10',
+        description: 'Таинственный герой получает силу, связанную с бессмертием, и оказывается втянут в опасные события другого мира.',
+        genres: ['Фэнтези', 'Экшен', 'Приключения'],
+        video: '    https://vkvideo.ru/video_ext.php?oid=-217873238&id=456243999&hd=4'
+    },
+    {
+        title: 'Welcome to Demon-School, Iruma-kun',
+        russianTitle: 'Добро пожаловать в ад, Ирума!',
+        year: 2019,
+        type: 'anime',
+        rating: 8.0,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyAUJDy-ewkwkRJSH1eqTA2l2mFah6rCIBHEZX9S_E_A&s=10',
+        description: 'Ирума становится приёмным внуком могущественного демона и начинает учиться в школе для демонов.',
+        genres: ['Комедия', 'Фэнтези', 'Школа'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-229696756&id=456253012&hd=4'
+    },
+    {
+        title: 'Alya Sometimes Hides Her Feelings in Russian',
+        russianTitle: 'Аля иногда кокетничает со мной по-русски',
+        year: 2024,
+        type: 'anime',
+        rating: 7.8,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4MVwml7bEb8Jq1Aa9O293pMhT9AOgd-mqx-nkxf_M2A&s=10',
+        description: 'Аля часто говорит с главным героем по-русски, не подозревая, что он прекрасно понимает её слова.',
+        genres: ['Романтика', 'Комедия', 'Школа'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-209521181&id=456239917&hd=4'
+    },
+    {
+        title: 'Chained Soldier',
+        russianTitle: 'Раб спецотряда',
+        year: 2024,
+        type: 'anime',
+        rating: 7.0,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNeGGaHRwtpXlKjYB8nrqoHCHLT-9VZrI3lMTGosTC3w&s',
+        description: 'Юноша оказывается в мире, где женщины обладают сверхъестественными способностями, и присоединяется к специальному отряду.',
+        genres: ['Экшен', 'Фэнтези', 'Приключения'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-229696756&id=456251953&hd=4'
+    },
+    {
+        title: 'Frieren: Beyond Journey’s End',
+        russianTitle: 'Фрирен: За гранью конца путешествия',
+        year: 2023,
+        type: 'anime',
+        rating: 9.0,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3g-fKgqGvz2DJ2cgw1JpHc30j4_Rx02VETrteO0ZyyA&s',
+        description: 'Эльфийка Фрирен отправляется в новое путешествие спустя годы после победы над Королём демонов.',
+        genres: ['Фэнтези', 'Приключения', 'Драма'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-229696756&id=456251979&hd=4'
+    },
+    {
+        title: 'Wistoria: Wand and Sword',
+        russianTitle: 'Меч и жезл Вистории',
+        year: 2024,
+        type: 'anime',
+        rating: 7.8,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3B6dhiAcFdHbL8jpbBO49nTtuusZQgZiLyWf7yh2q-g&s=10',
+        description: 'Уилл не умеет пользоваться магией, но благодаря мечу пытается пробиться в академии магов.',
+        genres: ['Фэнтези', 'Экшен', 'Школа'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-125699060&id=456240270&hd=4'
+    },
+    {
+        title: 'The Shiunji Family Children',
+        russianTitle: 'Дети семьи Сиунджи',
+        year: 2025,
+        type: 'anime',
+        rating: 7.2,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZla2h1q4iWZ0Np54_5fWBduD5GNsgSeDNwCoEvc-U_w&s',
+        description: 'Старший сын большой семьи начинает замечать странные чувства и отношения между членами семьи.',
+        genres: ['Романтика', 'Комедия', 'Школа'],
+        video: ''
+    },
+    {
+        title: 'The Brilliant Healer’s New Life in the Shadows',
+        russianTitle: 'Блестящий целитель',
+        year: 2025,
+        type: 'anime',
+        rating: 7.2,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThHu3g789BAw--0AThuvA6PCC1_-XhfGlpWIUlLahAFA&s=10',
+        description: 'Целитель, которого недооценивали и отвергали, начинает новую жизнь и постепенно показывает настоящую силу.',
+        genres: ['Фэнтези', 'Приключения', 'Экшен'],
+        video: ''
+    },
+    {
+        title: 'The Demon Sword Master of Excalibur Academy',
+        russianTitle: 'Владыка демонов: Последняя жизнь',
+        year: 2023,
+        type: 'anime',
+        rating: 6.8,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBrHGFohEweDROKhH4lzkwhnKx4y3-udzFoTabGtMdmQ&s=10',
+        description: 'Древний владыка демонов пробуждается спустя тысячу лет и обнаруживает, что мир полностью изменился.',
+        genres: ['Фэнтези', 'Экшен', 'Школа'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-210665208&id=456241372&hd=4'
+    },
+    {
+        title: 'The Unaware Atelier Master',
+        russianTitle: 'Весёлая защита владений беспечного лорда',
+        year: 2025,
+        type: 'anime',
+        rating: 7.3,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Y3IfopDmlRbGvm6XFy5JMUl5hhzpD6QDPdAuvLP-2Q&s=10',
+        description: 'Обычный на вид герой оказывается обладателем невероятных способностей и помогает окружающим, даже не понимая своей силы.',
+        genres: ['Фэнтези', 'Комедия', 'Приключения'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-238771780&id=456251257&hd=4'
+    },
+    {
+        title: 'The Demon Lord 2099',
+        russianTitle: 'Повелитель демонов 2099',
+        year: 2024,
+        type: 'anime',
+        rating: 7.3,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjDxkN2nX6Vbkyf0kV-gTN_ikKy5lHF0fboS1b5K2HLg&s=10',
+        description: 'Владыка демонов пробуждается в далёком будущем и обнаруживает совершенно новый мир технологий и магии.',
+        genres: ['Фэнтези', 'Фантастика', 'Экшен'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-230444338&id=456239385&hd=4'
+    },
+    {
+        title: 'The Aristocrat’s Otherworldly Adventure',
+        russianTitle: 'Невообразимые приключения перерождённого дворянина',
+        year: 2023,
+        type: 'anime',
+        rating: 7.2,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXxgOObzTzi2xtQiZigtvXkTU8aUHD7Ld_5M80my9kPg&s=10',
+        description: 'Переродившийся мальчик становится дворянином и получает невероятные способности благодаря благословению богов.',
+        genres: ['Исекай', 'Фэнтези', 'Приключения'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-172050720&id=456239709&hd=4'
+    },
+    {
+        title: 'Trapped in a Dating Sim',
+        russianTitle: 'Мир отомэ-игры очень сложен для мобов',
+        year: 2022,
+        type: 'anime',
+        rating: 7.5,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Xm08Z2tB-ZLPcVa6BygAT4q4_GdoGhy6reyF0XYWAQ&s=10',
+        description: 'Мужчина перерождается в мире отомэ-игры и пытается выжить, используя знания о сюжете.',
+        genres: ['Исекай', 'Комедия', 'Романтика'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-214780060&id=456239327&hd=4'
+    },
+    {
+        title: 'Reincarnated as a Hero’s Rib',
+        russianTitle: 'Богиня: Кем хочешь переродиться? — Я: Рёбром героя!',
+        year: 2025,
+        type: 'anime',
+        rating: 7.0,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtFtmXFYW6hBwMXPKDAEj2P_nPjeurtFPn-SUw9sQ3PQ&s',
+        description: 'После смерти герой получает неожиданное перерождение и становится частью тела легендарного героя.',
+        genres: ['Фэнтези', 'Комедия', 'Приключения'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-234820869&id=456239153&hd=4'
+    },
+    {
+        title: 'In Another World with My Smartphone',
+        russianTitle: 'Я переродился со смартфоном',
+        year: 2017,
+        type: 'anime',
+        rating: 6.9,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuFxDPIoBpP1RujIozqCtNOkHXLpDBUn9h6Wr32Ads2g&s=10',
+        description: 'После смерти парень перерождается в другом мире, сохранив свой смартфон и получив множество магических способностей.',
+        genres: ['Исекай', 'Фэнтези', 'Комедия'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-224509662&id=456239454&hd=4'
+    },
+    {
+        title: 'Black Summoner',
+        russianTitle: 'Тёмный призыватель',
+        year: 2022,
+        type: 'anime',
+        rating: 7.3,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbojA33gnkUJ7s520J4UyDPcNC8n3cGaxeRvDWnScovw&s=10',
+        description: 'Кельвин перерождается в другом мире и становится призывателем, который обожает сражения.',
+        genres: ['Исекай', 'Экшен', 'Фэнтези'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-224509662&id=456239703&hd=4'
+    },
+    {
+        title: 'Skeleton Knight in Another World',
+        russianTitle: 'Рыцарь-скелет вступает в параллельный мир',
+        year: 2022,
+        type: 'anime',
+        rating: 7.4,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2TbyWNUtNJVlIpReussnMfkT_33jJOoNA0AzvdtH9eQ&s=10',
+        description: 'Игрок просыпается в теле своего игрового персонажа-скелета и отправляется исследовать новый мир.',
+        genres: ['Исекай', 'Экшен', 'Фэнтези'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-239629851&id=456239304&hd=4'
+    },
+    {
+        title: 'The World’s Finest Assassin Gets Reincarnated',
+        russianTitle: 'Лучший в мире ассасин',
+        year: 2021,
+        type: 'anime',
+        rating: 7.7,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_5CNiB4cKpiAPB9o4X-QiULBNP-JaECMd0JwzBUeurQ&s',
+        description: 'Величайший ассасин перерождается в другом мире и получает задание уничтожить героя, способного погубить этот мир.',
+        genres: ['Исекай', 'Экшен', 'Фэнтези'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-228903930&id=456239073&hd=4'
+    },
+    {
+        title: 'The Dark Demon',
+        russianTitle: 'Тёмный демон',
+        year: 2025,
+        type: 'anime',
+        rating: 7.2,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd_7aaT0BUdLfe8baWaRbDlzlhEbra5D65_myNusWrOg&s=10',
+        description: 'Могущественный герой сталкивается с силами тьмы и оказывается втянут в масштабную битву.',
+        genres: ['Фэнтези', 'Экшен', 'Приключения'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-238771779&id=456256485&hd=4'
+    },
+    {
+        title: 'I’m Quitting Heroing',
+        russianTitle: 'Я перестану быть героем',
+        year: 2022,
+        type: 'anime',
+        rating: 7.5,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMKgZ4xTo6U40y_l2Q4CsRN9UhQkVJUw4xr_s3zJwqTw&s=10',
+        description: 'Невероятно сильный герой решает покинуть людей после того, как его начинают бояться, и присоединяется к армии демонов.',
+        genres: ['Фэнтези', 'Комедия', 'Экшен'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-221135691&id=456239394&hd=4'
+    },
+    {
+        title: 'I Got a Cheat Skill in Another World',
+        russianTitle: 'Я получил читерские способности в другом мире',
+        year: 2023,
+        type: 'anime',
+        rating: 7.1,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxfgMoE8XgHHQQvXarkxNUdpRVM1movwQZW4RT5kenlA&s=10',
+        description: 'Юноша получает возможность путешествовать между двумя мирами и благодаря этому приобретает невероятные способности.',
+        genres: ['Исекай', 'Фэнтези', 'Экшен'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-229696756&id=456241447&hd=4'
+    },
+    {
+        title: 'Apocalypse Bringer Mynoghra',
+        russianTitle: 'Апокалипсис Миногры',
+        year: 2025,
+        type: 'anime',
+        rating: 7.5,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsDvGmSVMG-7xM3YWUWOQGDMxty_ruotLKkTs7Ql-PwA&s',
+        description: 'Игрок оказывается в мире стратегии и начинает строить собственную цивилизацию, используя силы разрушения.',
+        genres: ['Исекай', 'Фэнтези', 'Стратегия'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-205534565&id=456239492&hd=4'
+    },
+    {
+        title: 'Arifureta',
+        russianTitle: 'Арифурэта: Сильнейший ремесленник в мире',
+        year: 2019,
+        type: 'anime',
+        rating: 7.8,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVc096gcDfEkT5rklj8pJcqhLC9-tI58HUCm9qP2Q8kA&s=10',
+        description: 'Хадзимэ оказывается в смертельном подземелье после предательства и постепенно превращается в одного из сильнейших героев.',
+        genres: ['Исекай', 'Экшен', 'Фэнтези'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-217873238&id=456244081&hd=4'
+    },
+    {
+        title: 'Banished from the Hero’s Party',
+        russianTitle: 'Изгнанный из команды героя',
+        year: 2021,
+        type: 'anime',
+        rating: 7.4,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRWGs-yBodt0ZzWeKLSVm-EiCxBw96KrMfPA7io-tGpw&s=10',
+        description: 'Гидеон покидает команду героя и начинает спокойную жизнь, открыв аптеку на окраине мира.',
+        genres: ['Фэнтези', 'Романтика', 'Приключения'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-229517468&id=456241501&hd=4'
+    },
+    {
+        title: 'The Masterful Cat Is Depressed Again Today',
+        russianTitle: 'Мастерская кошка снова грустит',
+        year: 2023,
+        type: 'anime',
+        rating: 7.4,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZn0WFlcup1QCSkDqVnxxrQHRQ8CH8pwJDOQDPI3RyrQ&s=10',
+        description: 'Огромный и невероятно умный кот заботится о своей неорганизованной хозяйке и ведёт почти человеческую жизнь.',
+        genres: ['Комедия', 'Повседневность'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-191857605&id=456239158&hd=4'
+    },
+    {
+        title: 'The Shiunji Family Children',
+        russianTitle: 'Полуночный мотив сердца',
+        year: 2025,
+        type: 'anime',
+        rating: 7.1,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMFWmjwNMwAR3xObKFVTktLgmFCWin9bNGPPFc4GgGqQ&s',
+        description: 'История большой семьи, где отношения между братьями, сёстрами и друзьями постепенно становятся сложнее.',
+        genres: ['Романтика', 'Комедия', 'Школа'],
+        video: '<iframe src="https://vkvideo.ru/video_ext.php?oid=-238771780&id=456251326&hd=4'
+    },
+    {
+        title: 'The Rising of the Shield Hero',
+        russianTitle: 'Герой щита',
+        year: 2019,
+        type: 'anime',
+        rating: 8.0,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwJmcJXuM_Ohww7d77dHOsg--7hXz2-V5YE3GrM4H8VQ&s=10',
+        description: 'Наофуми призывают в другой мир как одного из четырёх легендарных героев, но он оказывается предан и вынужден начать всё с нуля.',
+        genres: ['Исекай', 'Экшен', 'Фэнтези'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-125699060&id=456239505&hd=4'
+    },
+    {
+        title: 'Dandadan',
+        russianTitle: 'Дандадан',
+        year: 2024,
+        type: 'anime',
+        rating: 8.6,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgZSMZabcyNT5sjCs9cyxxySEeQ_4AtgTkO2rV695cYQ&s=10',
+        description: 'Двое школьников спорят о существовании призраков и пришельцев, после чего сами сталкиваются с паранормальными явлениями.',
+        genres: ['Экшен', 'Комедия', 'Сверхъестественное'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-229330807&id=456239094&hd=3'
+    },
+    {
+        title: 'The Exiled Heavy Knight',
+        russianTitle: 'Изгнанный реинкарнированный тяжёлый рыцарь не имеет себе равных в знаниях игры',
+        year: 2025,
+        type: 'anime',
+        rating: 7.5,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDGzJSjO_c_fiPc14LUwyv_v30Yk1m0m8w8Qfd2VMZgQ&s=10',
+        description: 'Изгнанный рыцарь получает шанс начать новую жизнь и использует знания о мире игры, чтобы стать невероятно сильным.',
+        genres: ['Фэнтези', 'Экшен', 'Приключения'],
+        video: 'https://vkvideo.ru/video_ext.php?oid=-201142575&id=456248160&hd=4'
+    },
+
+    {
+        title: 'The Healer Who Was Banished',
+        russianTitle: 'Маг-целитель: Новый старт',
+        year: 2021,
+        type: 'anime',
+        rating: 6.5,
+        trailerYoutubeId: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSALccOJ0KR5Dx8tBL7ix7Pu7ZUzTFa_fyQtpB_yxHIA&s',
+        description: 'История целителя, который получает возможность изменить свою судьбу и начинает свой путь заново.',
+        genres: ['Фэнтези', 'Экшен', 'Драма'],
         video: ''
     },
 

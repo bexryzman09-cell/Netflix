@@ -15,6 +15,7 @@ type MoviePageProps = {
         rating: number
         type?: string
         trailerYoutubeId?: string
+        video?: string
         image: string
         description?: string
         genres?: string[]
@@ -26,7 +27,8 @@ type MoviePageProps = {
 export default function MoviePage({ movie, initialMode = "details", onBack }: MoviePageProps) {
     const { toggleFavorite, isFavorite } = useFavorites()
 
-    const hasVideo = Boolean(movie.trailerYoutubeId)
+    const hasVideo = Boolean(movie.video)
+    const hasTrailer = Boolean(movie.trailerYoutubeId)
 
     const [playing, setPlaying] = useState<"movie" | "trailer" | null>(
         initialMode !== "details" && hasVideo ? (initialMode as "movie" | "trailer") : null
@@ -68,10 +70,14 @@ export default function MoviePage({ movie, initialMode = "details", onBack }: Mo
                         </button>
 
                         <iframe
-                            src={`https://www.youtube.com/embed/${movie.trailerYoutubeId}?autoplay=1`}
+                            src={
+                                playing === "movie"
+                                    ? `${movie.video}?autoplay=1`
+                                    : `https://www.youtube.com/embed/${movie.trailerYoutubeId}?autoplay=1`
+                            }
                             title={`${movie.title} — ${playing === "movie" ? "просмотр" : "трейлер"}`}
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerPolicy="strict-origin-when-cross-origin"
+                            allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock"
+                            frameBorder="0"
                             allowFullScreen
                         />
                     </div>
@@ -105,14 +111,22 @@ export default function MoviePage({ movie, initialMode = "details", onBack }: Mo
 
                             <button
                                 className="hero-btn hero-btn--primary"
-                                onClick={() => hasVideo ? setPlaying("movie") : alert("Видео для этого тайтла пока не добавлено")}
+                                onClick={() =>
+                                    hasVideo
+                                        ? setPlaying("movie")
+                                        : alert("Видео для этого тайтла пока не добавлено")
+                                }
                             >
                                 ▶ Смотреть
                             </button>
 
                             <button
                                 className="hero-btn hero-btn--trailer"
-                                onClick={() => hasVideo ? setPlaying("trailer") : alert("Трейлер для этого тайтла пока не добавлен")}
+                                onClick={() =>
+                                    hasTrailer
+                                        ? setPlaying("trailer")
+                                        : alert("Трейлер для этого тайтла пока не добавлен")
+                                }
                             >
                                 🎬 Трейлер
                             </button>

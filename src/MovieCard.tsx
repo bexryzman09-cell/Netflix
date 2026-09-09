@@ -14,6 +14,7 @@ type MovieCardProps = {
     title: string
     year: number
     trailerYoutubeId?: string
+    video?: string
     type?: string
     description?: string
     genres?: string[]
@@ -30,6 +31,7 @@ const MovieCard = ({
     title,
     year,
     trailerYoutubeId,
+    video,
     type,
     description,
     genres,
@@ -42,6 +44,7 @@ const MovieCard = ({
         title,
         year,
         trailerYoutubeId,
+        video,
         type,
         description,
         genres,

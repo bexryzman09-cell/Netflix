@@ -225,7 +225,7 @@ function App() {
 
         </div>
 
-        <span className="info-icon dark:text-white text-black">
+        <span className="info-icon text-white ">
           ⓘ
         </span>
 
@@ -455,6 +455,7 @@ function App() {
                 title={movie.title}
                 year={movie.year}
                 type={movie.type}
+                video={movie.video}
                 description={movie.description}
                 genres={movie.genres}
                 russianTitle={movie.russianTitle}
