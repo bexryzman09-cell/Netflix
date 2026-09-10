@@ -70,7 +70,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn5XY1ckzV4hT50Rf6L7Xhhun86hG3bVltpPRkY45ofg&s=10',
         description: 'Два совершенно разных человека знакомятся и постепенно меняют жизнь друг друга, несмотря на огромные различия между ними.',
         genres: ['Комедия', 'Драма'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-233305175&id=456243391&hd=3'
     },
     {
         title: 'Free Guy',
@@ -82,7 +82,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZbOgVvPUez1QREYbPgAnXxnSgdR67kUvqBu-ix0dFlQ&s',
         description: 'Обычный персонаж видеоигры неожиданно понимает, что его мир не так прост, как кажется, и решает изменить собственную судьбу.',
         genres: ['Боевик', 'Комедия', 'Фантастика'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-236936834&id=456239145&hd=4'
     },
     {
         title: 'Spiderman: No Way Home',
@@ -94,7 +94,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTah_FCfgjzQQ1UMru5OGO1L3vM96LJhEUW50nBbg3F8g&s=10',
         description: 'Питер Паркер пытается совмещать обычную жизнь с обязанностями супергероя, пока новое приключение не ставит под угрозу всё вокруг.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-220018529&id=456248832&hd=4'
     },
     {
         title: 'In Time',
@@ -106,7 +106,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjYNFd0A9eZo2uZqsnonULWmMiVjoE9knW_cdIPmBeGw&s=10',
         description: 'В мире, где время стало главным ресурсом, герой пытается вырваться из системы и изменить правила игры.',
         genres: ['Фантастика', 'Триллер', 'Боевик'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-237742304&id=456239957&hd=4'
     },
     {
         title: 'Deadpool',
@@ -154,7 +154,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmuX5BWljmEDj7ePDxYed6Fzs86LJy2jz81tHpMpb9Eg&s=10',
         description: 'Питер Паркер пытается совмещать обычную жизнь с обязанностями супергероя, пока новое приключение не ставит под угрозу всё вокруг.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-240084355&id=456239195&hd=4'
     },
     {
         title: 'Spiderman: Far From Home',
@@ -166,7 +166,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZehrXRUFYCUjLQmPjN8PZOTkO6jrmOWPKo_bGQTTRUQ&sF',
         description: 'Питер Паркер пытается совмещать обычную жизнь с обязанностями супергероя, пока новое приключение не ставит под угрозу всё вокруг.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-220018529&id=456248900&hd=4'
     },
     {
         title: 'Spiderman 1',
@@ -178,7 +178,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQzXUZZfMmlI9YxxRjeVkcHGbZwQIHCHXhw2ONttKqxA&s=10',
         description: 'Питер Паркер пытается совмещать обычную жизнь с обязанностями супергероя, пока новое приключение не ставит под угрозу всё вокруг.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-234297283&id=456241044&hd=4'
     },
     {
         title: 'Spiderman 2',
@@ -190,7 +190,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2P6JVisPyyM8N0-K5gyNIlCSJhduXiV2CN1fjq9bWJg&s=10',
         description: 'Питер Паркер пытается совмещать обычную жизнь с обязанностями супергероя, пока новое приключение не ставит под угрозу всё вокруг.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-230098113&id=456244408&hd=4'
     },
     {
         title: 'Spiderman 3: Enemy in the Reflection',
@@ -202,7 +202,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt_0cb1US3XRVe6ggPGKgzYFhg7X3JFrEDDMCedlIuNw&s',
         description: 'Питер Паркер пытается совмещать обычную жизнь с обязанностями супергероя, пока новое приключение не ставит под угрозу всё вокруг.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-220018529&id=456248869&hd=4'
     },
     {
         title: 'The Amazing Spiderman ',
@@ -214,7 +214,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-wwKvl8YauHaax1ha5qQlJXA5skHHT21KqkBPX1agpw&s=10',
         description: 'Питер Паркер пытается совмещать обычную жизнь с обязанностями супергероя, пока новое приключение не ставит под угрозу всё вокруг.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-233305176&id=456241735&hd=3'
     },
     {
         title: 'The Amazing Spiderman 2 ',
@@ -226,7 +226,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm2IUuMGeA24MtUdvxH2X8pVkKlDkpSONsa75qePEKUQ&s=10',
         description: 'Питер Паркер пытается совмещать обычную жизнь с обязанностями супергероя, пока новое приключение не ставит под угрозу всё вокруг.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-232125504&id=456239182&hd=4'
     },
     {
         title: 'Iron man',
@@ -238,7 +238,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfpJBGuynJxfX2ZqhXphRcPyoQUa4ieA2En9dq86dopQ&s=10',
         description: 'Тони Старк использует технологии и собственную изобретательность, чтобы защищать людей от всё более серьёзных угроз.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-100553591&id=456241189&hd=4'
     },
     {
         title: 'Iron man 2',
@@ -250,7 +250,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB5CoZf95XWRX2qmxAe7a0hKT-WkFcE_eqISh_WchILA&s=10',
         description: 'Тони Старк использует технологии и собственную изобретательность, чтобы защищать людей от всё более серьёзных угроз.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-86700064&id=456240937&hd=4'
     },
     {
         title: 'Iron man 3',
@@ -262,7 +262,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM8KQ2rRUjtGMHtw9rjiHO5jTu42YJww_DVKfHbTfnyg&s=10',
         description: 'Тони Старк использует технологии и собственную изобретательность, чтобы защищать людей от всё более серьёзных угроз.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-187750432&id=456246714&hd=3'
     },
     {
         title: 'Ant Man',
@@ -274,7 +274,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQFaVhJFbGv0GeINdzyeOHhotSjZ4ibafJ1Id9c-GqXg&s=10',
         description: 'Скотт Лэнг использует необычную технологию уменьшения, чтобы выполнить опасную миссию и защитить близких.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-235990401&id=456239221&hd=4'
     },
     {
         title: 'Ant Man and the wasp',
@@ -286,7 +286,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF3h9Pw2xfQGnfXxgeU_h5XOgiPvyx-nieQSFVnBxXXA&s',
         description: 'Скотт Лэнг использует необычную технологию уменьшения, чтобы выполнить опасную миссию и защитить близких.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-238749368&id=456239589&hd=4'
     },
     {
         title: 'Ant Man and the Wasp: Quantumania',
@@ -298,7 +298,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeA1NSylzfEDrJJxnLSTjQ5jLB7_jBtIHmHcZDtEnYHw&s=10',
         description: 'Скотт Лэнг использует необычную технологию уменьшения, чтобы выполнить опасную миссию и защитить близких.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-220018529&id=456248822&hd=4'
     },
     {
         title: 'Hulk',
@@ -310,7 +310,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2EJmXneDHNv-fHLfusYsTm81cuI6rSjOn9pE_3O-SWg&s=10',
         description: 'Брюс Бэннер пытается контролировать силу Халка, пока обстоятельства не заставляют его снова вступить в борьбу.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-186400980&id=456243523&hd=4'
     },
     {
         title: 'The Incredible Hulk',
@@ -322,7 +322,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfC4RQKbGQfPbouV-2IsIHplU3HOyMFHqsIAT-jioaTg&s=10',
         description: 'Брюс Бэннер пытается контролировать силу Халка, пока обстоятельства не заставляют его снова вступить в борьбу.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-220018529&id=456240126&hd=4'
     },
     {
         title: 'Thor',
@@ -334,7 +334,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2OJqKhDiszRzli1sbz2wnhjp4Kztsd4f6pgVJj84grg&s=10',
         description: 'Тор отправляется в новое опасное приключение, где ему приходится столкнуться с врагами, богами и собственными решениями.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-232161489&id=456239812&hd=4'
     },
     {
         title: 'Thor: The Dark World',
@@ -346,7 +346,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzLszfI5nri2HV0nGkKM5ulcrMT1F_nhy_xbrU-vNhKQ&s=10',
         description: 'Тор отправляется в новое опасное приключение, где ему приходится столкнуться с врагами, богами и собственными решениями.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-220018529&id=456248816&hd=4'
     },
     {
         title: 'Thor: Ragnarok',
@@ -358,7 +358,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStKIit8uiSe33RXpsmNVjVxYSAl2d96KSSL2DIc64r8A&s=10',
         description: 'Тор отправляется в новое опасное приключение, где ему приходится столкнуться с врагами, богами и собственными решениями.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-231677908&id=456239190&hd=4'
     },
     {
         title: 'Thor: Love and Thunder',
@@ -370,7 +370,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXuNSgPbsBTe5nCYOk17cNND7K5m_UhRMrr6CFYidQ8g&s=10',
         description: 'Тор отправляется в новое опасное приключение, где ему приходится столкнуться с врагами, богами и собственными решениями.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-232161489&id=456239815&hd=4'
     },
     {
         title: 'Venom: The Last Dance',
@@ -382,7 +382,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz5IwVbhxL_tRDf_kzsujtW7vlm5KRVL3lX6zvz1uRiw&s=10',
         description: 'Эдди Брок продолжает существовать бок о бок с Веномом, сталкиваясь с новыми угрозами и последствиями их необычного союза.',
         genres: ['Боевик', 'Фантастика', 'Триллер'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-129488269&id=456249145&hd=4'
     },
     {
         title: 'The Avengers',
@@ -394,7 +394,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTozq234h5fbLN5X2rdC-CEXuMN30OjP7tLEz4np7JTcA&s',
         description: 'Сильнейшие герои объединяются против масштабной угрозы, которая ставит под удар судьбу всего мира.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-239139495&id=456239173&hd=4'
     },
     {
         title: 'Avengers: Age of Ultron',
@@ -406,7 +406,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThLRI4GJYgh2r9Kj8Tp9qIzr2pkIZ9Jtzs9b1L3V58Ew&s=10',
         description: 'Сильнейшие герои объединяются против масштабной угрозы, которая ставит под удар судьбу всего мира.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-232161489&id=456239819&hd=4'
     },
     {
         title: 'Avengers: Infinity War',
@@ -418,7 +418,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu4xkBrfmyz9SdMJ3LKudO7GkcfOTAdcqEsxp2zjXa6w&s',
         description: 'Сильнейшие герои объединяются против масштабной угрозы, которая ставит под удар судьбу всего мира.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-219966194&id=456241446&hd=4'
     },
     {
         title: 'Avengers: Endgame',
@@ -430,7 +430,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTopBWUPixvTERiErsUrPAiQ0kXbGMgPz8GwK57j1AosQ&s',
         description: 'Сильнейшие герои объединяются против масштабной угрозы, которая ставит под удар судьбу всего мира.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-219966194&id=456239687&hd=4'
     },
 
     {
@@ -443,7 +443,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE-_9CLwB8GJ_dm6bi29Yrim5CpDdLb_TfQNHnAmPuBQ&s=10',
         description: 'Гарри Поттер продолжает обучение в Хогвартсе и оказывается втянут в очередную тайну, связанную с магическим миром.',
         genres: ['Фэнтези', 'Приключения', 'Семейный'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-234297283&id=456242503&hd=4'
     },
     {
         title: 'Harry Potter and the Chamber of Secrets',
@@ -455,7 +455,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrJpqjRQOCwkcCh_d2BZztLnuzcepAc3CDmKYh50LSLQ&s=10',
         description: 'Гарри Поттер продолжает обучение в Хогвартсе и оказывается втянут в очередную тайну, связанную с магическим миром.',
         genres: ['Фэнтези', 'Приключения', 'Семейный'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-233124231&id=456239248&hd=3'
     },
     {
         title: 'Harry Potter and the Prisoner of Azkaban',
@@ -467,7 +467,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnUpV7Lyc-t8E5rj3Asm7nbIhKAq1iqVRyiTcKqRUCCw&s=10',
         description: 'Гарри Поттер продолжает обучение в Хогвартсе и оказывается втянут в очередную тайну, связанную с магическим миром.',
         genres: ['Фэнтези', 'Приключения', 'Семейный'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-234297283&id=456242675&hd=4'
     },
     {
         title: 'Harry Potter and the Goblet of Fire',
@@ -479,7 +479,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfUx-8CMqMbPNHZoxdOAjH9831TNE7bEEZ3zd_x-5Q_Q&s=10',
         description: 'Гарри Поттер продолжает обучение в Хогвартсе и оказывается втянут в очередную тайну, связанную с магическим миром.',
         genres: ['Фэнтези', 'Приключения', 'Семейный'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-233124231&id=456239253&hd=3'
     },
     {
         title: 'Harry Potter and the Order of the Phoenix',
@@ -491,7 +491,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLlqViYTq7c1o4lyPAqErSPAXRDLQ3PhwThbdcJhjaXA&s',
         description: 'Гарри Поттер продолжает обучение в Хогвартсе и оказывается втянут в очередную тайну, связанную с магическим миром.',
         genres: ['Фэнтези', 'Приключения', 'Семейный'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-234297283&id=456242524&hd=4'
     },
     {
         title: 'Harry Potter and the Half-Blood Prince',
@@ -503,7 +503,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ18FpJlfPvcElUwTz0zVFcIcb0RGglv6HatYN4G8PKBw&s=10',
         description: 'Гарри Поттер продолжает обучение в Хогвартсе и оказывается втянут в очередную тайну, связанную с магическим миром.',
         genres: ['Фэнтези', 'Приключения', 'Семейный'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-234297283&id=456242098&hd=4'
     },
     {
         title: 'Harry Potter and the Deathly Hallows: Part 1',
@@ -515,7 +515,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4bVMsMclt4N0ev4QVk9zQsokbVlrO83bq3XBYC--dNg&s=10',
         description: 'Гарри Поттер продолжает обучение в Хогвартсе и оказывается втянут в очередную тайну, связанную с магическим миром.',
         genres: ['Фэнтези', 'Приключения', 'Семейный'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-220018529&id=456248138&hd=4'
     },
     {
         title: 'Harry Potter and the Deathly Hallows: Part 2',
@@ -527,7 +527,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcxEnewWFBfdo4EpFQeU2SgfXlGV3AC9j_mQ0HG_2tVQ&s',
         description: 'Гарри Поттер продолжает обучение в Хогвартсе и оказывается втянут в очередную тайну, связанную с магическим миром.',
         genres: ['Фэнтези', 'Приключения', 'Семейный'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-230098113&id=456244196&hd=3'
     },
 
     {
@@ -540,7 +540,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1FpuUOIGxS_2rQ_MDKofT_SgG5457a9_s9JA3NaffoA&s=10',
         description: 'Юный герой остаётся один и вынужден проявить смекалку, чтобы защитить дом от неожиданных неприятностей.',
         genres: ['Комедия', 'Семейный'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-220018529&id=456248134&hd=4'
     },
     {
         title: 'Home Alone 2: Lost in New York',
@@ -552,7 +552,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNdajZxY33mUkYlnyCyl1Z_hFDWiMQbaiiGoZltrYnDg&s=10',
         description: 'Юный герой остаётся один и вынужден проявить смекалку, чтобы защитить дом от неожиданных неприятностей.',
         genres: ['Комедия', 'Семейный'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-220018529&id=456248133&hd=4'
     },
     {
         title: 'Home Alone 3',
@@ -564,7 +564,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmR39ycgVgB9BYPMRKjVpHYixFsD9e9sHfYzGoUASKbg&s=10',
         description: 'Юный герой остаётся один и вынужден проявить смекалку, чтобы защитить дом от неожиданных неприятностей.',
         genres: ['Комедия', 'Семейный'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-192147370&id=456239244&hd=1'
     },
     {
         title: 'Home Alone 4: Taking Back the House',
@@ -576,7 +576,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSatpgqs4tbcjsDniU5K8z_9c7bnNs7tvpHIbqK7q9TUQ&s=10',
         description: 'Юный герой остаётся один и вынужден проявить смекалку, чтобы защитить дом от неожиданных неприятностей.',
         genres: ['Комедия', 'Семейный'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-219966194&id=456241407&hd=4'
     },
     {
         title: 'Home Alone: The Holiday Heist',
@@ -588,19 +588,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBedwkgRMzcJ2DM7aN9lzRFGrrPRTF3VdicLMBFHZf-A&s=10',
         description: 'Юный герой остаётся один и вынужден проявить смекалку, чтобы защитить дом от неожиданных неприятностей.',
         genres: ['Комедия', 'Семейный'],
-        video: ''
-    },
-    {
-        title: 'Home Sweet Home Alone',
-        russianTitle: 'Один дома: Дом, милый дом',
-        year: 2021,
-        type: 'movie',
-        rating: 3.6,
-        trailerYoutubeId: 'jz5hGQ93x9A',
-        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjFzCmnrd8XPJuuGnWNYHMX3FTFx7od6XvhF-Sch4rEg&s=10',
-        description: 'Юный герой остаётся один и вынужден проявить смекалку, чтобы защитить дом от неожиданных неприятностей.',
-        genres: ['Комедия', 'Семейный'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-219966194&id=456241410&hd=4'
     },
 
     {
@@ -613,7 +601,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBl9Jv77eSolcOsCfpjADUpquJQGLD7RjugAbG76APMw&s=10',
         description: 'Дэнджи пытается жить обычной жизнью, но встреча с Резе вновь втягивает его в опасный мир демонов и охотников.',
         genres: ['Боевик', 'Фэнтези', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-164485244&id=456240241&hd=4'
     },
     {
         title: 'KonoSuba: Legend of Crimson',
@@ -637,7 +625,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNxl3_Elwh-LsCigImzaetqy_Tpf_r-DsQh24TiQ3J_w&s',
         description: 'Герой оказывается в необычном мире и получает шанс начать новую жизнь, сталкиваясь с магией, приключениями и опасными противниками.',
         genres: ['Фэнтези', 'Приключения', 'Экшен'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-189724571&id=456256830&hd=1'
     },
     {
         title: 'Spirited Away',
@@ -649,7 +637,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1kFFWMiuSl2fldakG_x2zvXxxfsO8bdJAN5j0y_xboQ&s=10',
         description: 'История «Унесённые призраками» — приключение с героями, испытаниями и событиями, которые меняют их жизнь.',
         genres: ['Аниме', 'Приключения', 'Фэнтези'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-231738041&id=456239126&hd=4'
     },
     {
         title: 'Your Name',
@@ -661,7 +649,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8vkLzB_oM1s5qjBtxNGLMEnPm7QjJYCYsI1I1XS5Cug&s=10',
         description: 'История «Твоё имя» — приключение с героями, испытаниями и событиями, которые меняют их жизнь.',
         genres: ['Аниме', 'Приключения', 'Фэнтези'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-220018529&id=456243599&hd=4'
     },
     {
         title: 'Howl\'s Moving Castle',
@@ -673,7 +661,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIGd8ea63Ff1HlYQbmxat3rw2_40ILrDBH0g9Rfh-bzw&s=10',
         description: 'История «Ходячий замок» — приключение с героями, испытаниями и событиями, которые меняют их жизнь.',
         genres: ['Аниме', 'Приключения', 'Фэнтези'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-208684982&id=456239827&hd=4'
     },
     {
         title: 'Grave of the Fireflies',
@@ -685,7 +673,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS23SVMU16lay4ZQYjO-EVL4SKx7pgMIt8W2daOtVE_Gg&s=10',
         description: 'История «Могила светлячков» — приключение с героями, испытаниями и событиями, которые меняют их жизнь.',
         genres: ['Аниме', 'Приключения', 'Фэнтези'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-222948973&id=456244073&hd=4'
     },
     {
         title: 'Akira',
@@ -697,7 +685,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk2P7Kw3IbhYtKkB1MA1ev52eW9CSSHUy6MCXO4eGpKg&s=10',
         description: 'История «Акира» — приключение с героями, испытаниями и событиями, которые меняют их жизнь.',
         genres: ['Аниме', 'Приключения', 'Фэнтези'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-221185657&id=456239073&hd=1'
     },
 
     {
@@ -710,7 +698,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwqurdv9W284jWvhZryRnzp8aMQB2_3pFwsj_gY0Xkwg&s',
         description: 'Супермен пытается защитить людей и найти своё место в мире, сталкиваясь с противниками, равными ему по силе.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-186400980&id=456242972&hd=4'
     },
     {
         title: 'Superman II',
@@ -722,7 +710,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeWvy31IkLSRRaj4hthW6kzewNASWLNfLOdBJbXjfr0w&s=10',
         description: 'Супермен пытается защитить людей и найти своё место в мире, сталкиваясь с противниками, равными ему по силе.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-229774325&id=456239754&hd=3'
     },
     {
         title: 'Superman III',
@@ -734,7 +722,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6w7hyGHiF55MMucXhiRlsuyU8dibZgXOJc_Trze3LdQ&s=10',
         description: 'Супермен пытается защитить людей и найти своё место в мире, сталкиваясь с противниками, равными ему по силе.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-234512521&id=456244818&hd=4'
     },
     {
         title: 'Superman IV: The Quest for Peace',
@@ -758,7 +746,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQijnagErkeN9WtG_84MC2INxZBd5nOEMRzl8DVNrCZYA&s=10',
         description: 'Супермен пытается защитить людей и найти своё место в мире, сталкиваясь с противниками, равными ему по силе.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-225434188&id=456239275&hd=4'
     },
     {
         title: 'Man of Steel',
@@ -770,7 +758,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ__gJdfTZ8JABTFTSsY_KuMOGn5JuTl7rPRra2fwnuAQ&s=10',
         description: 'Супермен пытается защитить людей и найти своё место в мире, сталкиваясь с противниками, равными ему по силе.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-227596514&id=456243779&hd=4'
     },
     {
         title: 'Superman',
@@ -782,7 +770,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbUdd28jMC3x1UySFGkHZXZDKxa1_VXL5sNg2Ky8a9gw&s',
         description: 'Супермен пытается защитить людей и найти своё место в мире, сталкиваясь с противниками, равными ему по силе.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-186400980&id=456243557&hd=4'
     },
 
     {
@@ -795,7 +783,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Plj8DhJ4pvWt5_4WsxxxTNfvz3S2L9NVbP4MvQzzXA&s',
         description: 'Герои LEGO оказываются в безумном приключении, где юмор, фантазия и командная работа помогают им спасти ситуацию.',
         genres: ['Комедия', 'Приключения', 'Семейный'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-100553591&id=456241352&hd=3'
     },
     {
         title: 'The LEGO Batman Movie',
@@ -807,7 +795,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTw9DA6HsDk9-Qo_vWdJjhgGGUvQ_XUIhCSowU2vNG4Q&s=10',
         description: 'Бэтмен расследует опасное дело в Готэме и сталкивается с преступниками, тайнами и угрозой, которая проверит его пределы.',
         genres: ['Боевик', 'Комедия', 'Приключения'],
-        video: ''
+        video: '    https://vkvideo.ru/video_ext.php?oid=-235797857&id=456239070&hd=3'
     },
     {
         title: 'The LEGO Movie 2: The Second Part',
@@ -818,7 +806,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNvs_irjy_eqwgtnXXzMKFaBdn8aPw_6PVarD3LQknjA&s=10',
         description: 'Герои LEGO оказываются в безумном приключении, где юмор, фантазия и командная работа помогают им спасти ситуацию.',
         genres: ['Комедия', 'Приключения', 'Семейный'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-100553591&id=456241364&hd=4'
     },
 
     {
@@ -830,7 +818,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGdE475xLQrK-pri9XVYape_qpik4FXBMe_nzh-4ENjg&s=10',
         description: 'Питер Паркер пытается совмещать обычную жизнь с обязанностями супергероя, пока новое приключение не ставит под угрозу всё вокруг.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-192371408&id=456244377&hd=4'
     },
 
     {
@@ -842,7 +830,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgy5O5BEL-kcq64c6bVtHYBf7B1gkEJLog2VbvKSvdDg&s',
         description: 'Питер Паркер пытается совмещать обычную жизнь с обязанностями супергероя, пока новое приключение не ставит под угрозу всё вокруг.',
         genres: ['Боевик', 'Фантастика', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-100553591&id=456241350&hd=4'
     },
 
     {
@@ -854,7 +842,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVCULBTXwSWYw92F3KAoHsCgH03m3ygRkwkbWmmjcFcw&s=10',
         description: 'Дракула и его необычная семья отправляются в новое приключение, где монстрам приходится привыкать к неожиданным переменам.',
         genres: ['Комедия', 'Фэнтези', 'Семейный'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-241028957&id=456239053&hd=4'
     },
 
     {
@@ -866,7 +854,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGtcbmLpskhjw93jbWOc7PCM-lJQWgbHPK8fPNnco5Vg&s=10',
         description: 'Дракула и его необычная семья отправляются в новое приключение, где монстрам приходится привыкать к неожиданным переменам.',
         genres: ['Комедия', 'Фэнтези', 'Семейный'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-236823529&id=456239525&hd=4'
     },
 
     {
@@ -878,7 +866,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFTVPTFLlgDcI18SdljtXcUmswohUoSxO-ASI5gMPIxQ&s=10',
         description: 'Дракула и его необычная семья отправляются в новое приключение, где монстрам приходится привыкать к неожиданным переменам.',
         genres: ['Комедия', 'Фэнтези', 'Семейный'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-230098113&id=456244590&hd=4'
     },
 
     {
@@ -890,7 +878,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ05HmCEb_s8R9umHM9ce66StJ4HaKHnabm7BBVQfHS-g&s=10',
         description: 'Дракула и его необычная семья отправляются в новое приключение, где монстрам приходится привыкать к неожиданным переменам.',
         genres: ['Комедия', 'Фэнтези', 'Семейный'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-10711091&id=456277189&hd=3'
     },
 
 
@@ -912,7 +900,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYaYyMabRZbUSqavuGuiFNSKknCFxEPJ1dayj-mZ2jpQ&s=10',
         description: 'Герой оказывается в необычном мире и получает шанс начать новую жизнь, сталкиваясь с магией, приключениями и опасными противниками.',
         genres: ['Фэнтези', 'Приключения', 'Экшен'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-210154377&id=456240383&hd=4'
     },
 
     {
@@ -925,7 +913,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJWm0i6-ULrlj0XNxAtirsnSh41KOD2YEBUIU9V7bS4Q&s',
         description: 'Герой оказывается в необычном мире и получает шанс начать новую жизнь, сталкиваясь с магией, приключениями и опасными противниками.',
         genres: ['Фэнтези', 'Приключения', 'Экшен'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-126822319&id=456244609&hd=4'
     },
 
     {
@@ -938,7 +926,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTANtHLlJduZxf1hb_Xk31O5c1Kwoady62uwboqPYrlug&s=10',
         description: 'Героиня оказывается в необычном мире и собирает команду авантюристов, полную комических ситуаций.',
         genres: ['Фэнтези', 'Приключения', 'Комедия'],
-        video: 'https://vkvideo.ru/video_ext.php?oid=-207641791&id=456239095&hd=4'
+        video: 'https://vkvideo.ru/video_ext.php?oid=-126822319&id=456244609&hd=4'
     },
 
     {
@@ -951,7 +939,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVmJ8Vva5suTBHiAeDe8WWnGWos37Q4rHFsIrO7F9i5w&s=10',
         description: 'Герой переносится в другой мир и создаёт империю в тени, вывёл эту методику из света.',
         genres: ['Фэнтези', 'Приключения', 'Комедия'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-210154377&id=456240382&hd=4'
     },
 
     {
@@ -977,7 +965,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwJmcJXuM_Ohww7d77dHOsg--7hXz2-V5YE3GrM4H8VQ&s=10 ',
         description: 'Юноша получает роль защитника и должен исправить ошибки прошлого, постепенно обретая собственную силу.',
         genres: ['Фэнтezi', 'Приключения', 'Боевик'],
-        video: ''
+        video: '    https://vkvideo.ru/video_ext.php?oid=-210154377&id=456240382&hd=4'
     },
 
     {
@@ -1111,7 +1099,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW_VQJisoab_M07ZzRUqQy3dIV0zzz0AWlSsam9sQCaQ&s',
         description: 'Юноша отправляется на поиски своего отца, проходя испытания и находя верных друзей.',
         genres: ['Боевик', 'Фэнтezi', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-238771779&id=456244920&hd=1'
     },
 
     {
@@ -1124,7 +1112,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEPpqSM_FsB7gBaqcNCtj_AcqcXnE4XhotnbxwCw6dQw&s=10',
         description: 'Два брата алхимика ищут способ вернуть тела после ошибки алхимии, раскрывая государственные тайны.',
         genres: ['Боевик', 'Фэнтezi', 'Приключения'],
-        video: ''
+        video: 'https://vkvideo.ru/video_ext.php?oid=-125699060&id=456239352&hd=4'
     },
 
     {
