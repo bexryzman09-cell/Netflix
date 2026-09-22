@@ -852,7 +852,7 @@ button,
 }
 
 .hero-banner-meta {
-  display: flex;
+  display: flex !important;
   align-items: center;
   gap: 8px;
   margin-bottom: 14px;
@@ -1410,4 +1410,224 @@ button,
   font-size: 14px;
 
   cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 24px 40px;
+  }
+
+  .movie-card-wrapper {
+    width: 200px;
+  }
+
+  .movie-poster {
+    height: 290px;
+  }
+
+  .hero-banner {
+    height: 55vh;
+    min-height: 380px;
+  }
+
+  .hero-banner-content {
+    padding: 0 28px;
+    max-width: 520px;
+  }
+
+  .hero-banner-content h1 {
+    font-size: 32px;
+  }
+
+  .movie-hero {
+    height: 75vh;
+    min-height: 520px;
+  }
+
+  .movie-hero-info {
+    padding: 0 40px;
+    max-width: 560px;
+  }
+
+  .movie-hero-info h1 {
+    font-size: 40px;
+  }
+
+  .popular-item {
+    width: 150px;
+    height: 195px;
+  }
+
+  .popular-poster {
+    width: 115px;
+    height: 170px;
+  }
+
+  .popular-number {
+    font-size: 90px;
+    margin-right: -28px;
+  }
+
+  .popular-arrow {
+    opacity: 1;
+    width: 38px;
+    height: 38px;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 700px) {
+  .movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    padding: 0 16px 32px;
+  }
+
+  .movie-card-wrapper {
+    width: 150px;
+  }
+
+  .movie-poster {
+    height: 218px;
+  }
+
+  .movie-content {
+    padding: 10px;
+  }
+
+  .movie-content-title {
+    font-size: 14px;
+    -webkit-line-clamp: 1;
+  }
+
+  .movie-content-meta {
+    font-size: 11px;
+    gap: 6px;
+  }
+
+  .movie-content-description,
+  .movie-content-genres {
+    display: none;
+  }
+
+  .movie-type-badge {
+    padding: 3px 8px;
+    font-size: 10px;
+  }
+
+  .poster-play {
+    width: 44px;
+    height: 44px;
+    font-size: 16px;
+  }
+
+  .poster-overlay {
+    gap: 10px;
+  }
+
+  .poster-actions {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .circle-btn-icon {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .circle-btn-label {
+    font-size: 9px;
+  }
+
+  .circle-btn-icon .favorite-button {
+    font-size: 13px;
+  }
+
+  .poster-trailer-btn {
+    padding: 5px 12px;
+    font-size: 10px;
+  }
+
+  .hero-banner-actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .hero-banner-description {
+    font-size: 13px;
+    -webkit-line-clamp: 2;
+  }
+
+  .hero-banner-meta {
+    font-size: 13px;
+    gap: 6px;
+  }
+
+  .movie-hero {
+    height: 56vh;
+    min-height: 420px;
+  }
+
+  .movie-hero-meta {
+    font-size: 13px;
+    gap: 10px;
+  }
+
+  .hero-btn {
+    padding: 12px 18px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .movie-page-body {
+    margin: -20px auto 0;
+    padding: 24px 16px 60px;
+  }
+
+  .popular-row-title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 420px) {
+  .movie-card-wrapper {
+    width: 130px;
+  }
+
+  .movie-poster {
+    height: 189px;
+  }
+
+  .popular-item {
+    width: 100px;
+    height: 135px;
+  }
+
+  .popular-poster {
+    width: 76px;
+    height: 110px;
+  }
+
+  .popular-number {
+    font-size: 50px;
+    margin-right: -14px;
+    margin-bottom: -6px;
+  }
+
+  .movie-hero-info h1 {
+    font-size: 24px;
+  }
+
+  .hero-banner-content h1 {
+    font-size: 20px;
+  }
 }

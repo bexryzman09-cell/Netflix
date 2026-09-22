@@ -1440,7 +1440,7 @@ export const MOVIES = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlgpU_xaFx8S41ZEIbJafv75FC2HK5BykClytz10uOwQ&s=10',
         description: 'Группа друзей расследует таинственное исчезновение в маленьком городке с научной базой.',
         genres: ['Фантастика', 'Ужасы', 'Драма'],
-        video: 'https://vkvideo.ru/video_ext.php?oid=-220020068&id=456259179&hd=3'
+        video: 'https://vkvideo.ru/ыяыыvideo_ext.php?oid=-220020068&id=456259179&hd=3'
     },
 
     {
@@ -1467,7 +1467,7 @@ export const MOVIES = [
         description: 'Двое героев путешествуют через постапокалиптический мир, полный опасностей.',
         genres: ['Драма', 'Фантастика', 'Приключения'],
         video: ''
-    },
+    },  
 
     {
         title: 'The Walking Dead',

@@ -249,22 +249,18 @@ code {
 }
 
 .netflix-search {
-  width: 300px;
+  display: flex;
+  justify-content: center;
+  width: 500px;
   height: 44px;
-
   padding: 0 16px;
-
   background: #141414;
   color: white;
-
   border: 1px solid #555;
   border-radius: 6px;
-
   outline: none;
-
   font-size: 15px;
   font-family: Arial, sans-serif;
-
   transition: 0.2s ease;
 }
 
@@ -481,9 +477,6 @@ code {
 
 
 
-/* ================================
-   MOVIE MODAL
-================================ */
 
 .movie-modal-header {
   margin-bottom: 20px;
@@ -505,9 +498,7 @@ code {
 }
 
 
-/* ================================
-   RATING
-================================ */
+
 
 .movie-modal-rating {
   margin-bottom: 22px;
@@ -524,7 +515,7 @@ code {
 }
 
 
-/* IMDb верх */
+
 
 .movie-modal-rating__top {
   display: flex;
@@ -549,7 +540,6 @@ code {
 }
 
 
-/* Ваша оценка */
 
 .user-rating h3 {
   margin: 0 0 13px;
@@ -560,9 +550,6 @@ code {
 }
 
 
-/* ================================
-   КНОПКИ 1 - 10
-================================ */
 
 .rating-buttons {
   display: grid;
@@ -615,7 +602,7 @@ code {
 }
 
 
-/* Выбранная */
+
 
 .rating-button.active {
   background: #e50914;
@@ -630,9 +617,6 @@ code {
 }
 
 
-/* ================================
-   РЕЗУЛЬТАТ
-================================ */
 
 .selected-rating {
   display: flex;
@@ -662,9 +646,7 @@ code {
 }
 
 
-/* ================================
-   YOUTUBE
-================================ */
+
 
 .movie-modal-video {
   width: 100%;
@@ -715,8 +697,6 @@ code {
   margin: 25px 0 30px;
   padding: 0 4px;
 }
-
-/* Кнопки фильтра */
 
 .filter-tabs {
   display: flex;
@@ -770,7 +750,6 @@ code {
   transform: scale(0.94);
 }
 
-/* Активный фильтр */
 
 .filter-tab.active {
   color: white;
@@ -792,7 +771,6 @@ code {
       #c40812);
 }
 
-/* Сортировка */
 
 .sort-select {
   min-width: 180px;
@@ -836,7 +814,7 @@ code {
   color: white;
 }
 
-/* Адаптив */
+
 
 @media (max-width: 800px) {
   .movie-filters {
@@ -916,7 +894,7 @@ code {
     box-shadow 0.25s ease;
 }
 
-/* Блик */
+
 
 .watched-button::before {
   content: "";
@@ -943,8 +921,6 @@ code {
   left: 140%;
 }
 
-/* Наведение */
-
 .watched-button:hover {
   color: white;
 
@@ -961,16 +937,14 @@ code {
     inset 0 1px rgba(255, 255, 255, 0.08);
 }
 
-/* Нажатие */
+
 
 .watched-button:active {
   transform: scale(0.97);
 }
 
 
-/* =========================
-   ПРОСМОТРЕНО
-========================= */
+
 
 .watched-button.watched {
   color: white;
@@ -1001,18 +975,13 @@ code {
 }
 
 
-/* =========================
-   АНИМАЦИЯ ПРИ НАЖАТИИ
-========================= */
+
 
 .watched-button.watched:active {
   transform: scale(0.95);
 }
 
 
-/* =========================
-   МОБИЛЬНЫЕ
-========================= */
 
 @media (max-width: 600px) {
 
@@ -1024,3 +993,342 @@ code {
 
 }
 
+
+
+
+
+
+
+@media (max-width: 1024px) {
+
+  .movies-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1.25rem;
+  }
+
+  .hero-banner {
+    height: 65vh;
+  }
+
+  .hero-banner-content {
+    padding: 1.5rem;
+    max-width: 90%;
+  }
+
+  .hero-banner-content h1 {
+    font-size: 2rem;
+  }
+
+  .movie-hero {
+    height: 60vh;
+  }
+
+  .movie-hero-info {
+    padding: 1.5rem;
+    max-width: 100%;
+  }
+
+  .movie-hero-info h1 {
+    font-size: 1.75rem;
+  }
+
+  .poster-actions {
+    gap: 0.75rem;
+  }
+
+  .circle-btn-label {
+    font-size: 0.7rem;
+  }
+
+
+  .popular-poster {
+    width: 140px;
+  }
+
+  .popular-number {
+    font-size: 2.5rem;
+  }
+
+
+  .movie-modal-rating {
+    padding: 1.25rem;
+  }
+
+  .rating-buttons {
+    gap: 0.4rem;
+  }
+}
+
+
+@media (max-width: 640px) {
+
+  .movie-header {
+    padding: 0.75rem 1rem;
+    gap: 0.75rem;
+  }
+
+  .movie-header h1 {
+    font-size: 1.1rem;
+  }
+
+  .theme-button {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+
+  .movies-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+    padding: 1rem;
+  }
+
+
+  .movie-card-wrapper {
+    border-radius: 8px;
+  }
+
+  .movie-content {
+    padding: 0.6rem;
+  }
+
+  .movie-content-title {
+    font-size: 0.9rem;
+    -webkit-line-clamp: 1;
+  }
+
+  .movie-content-description {
+    display: none;
+  
+  }
+
+  .movie-content-genres {
+    display: none;
+  }
+
+  .movie-type-badge {
+    font-size: 0.65rem;
+    padding: 0.15rem 0.4rem;
+  }
+
+ 
+  .poster-play {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.1rem;
+  }
+
+  .poster-actions {
+    gap: 0.5rem;
+  }
+
+  .circle-btn {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+
+  .circle-btn-label {
+    display: none;
+  }
+
+  .poster-trailer-btn {
+    font-size: 0.75rem;
+    padding: 0.35rem 0.6rem;
+  }
+
+  .favorite-button {
+    font-size: 1.1rem;
+  }
+
+
+  .popular-row-title {
+    font-size: 1.15rem;
+    gap: 0.4rem;
+  }
+
+  .popular-poster {
+    width: 96px;
+  }
+
+  .popular-number {
+    font-size: 1.75rem;
+  }
+
+  .popular-arrow {
+    width: 2rem;
+    height: 2rem;
+    display: none;
+  }
+
+
+  .hero-banner {
+    height: 55vh;
+  }
+
+  .hero-banner-content {
+    padding: 1rem;
+  }
+
+  .hero-banner-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-banner-description {
+    font-size: 0.85rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+
+  .hero-banner-actions {
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+  }
+
+  .hero-banner-actions .hero-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+
+  .movie-page-topbar {
+    padding: 0.75rem 1rem;
+  }
+
+  .movie-hero {
+    height: 45vh;
+  }
+
+  .movie-hero-info {
+    padding: 1rem;
+    gap: 0.5rem;
+  }
+
+  .movie-hero-info h1 {
+    font-size: 1.3rem;
+  }
+
+  .movie-hero-meta {
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+  }
+
+  .movie-hero-description {
+    font-size: 0.85rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }
+
+  .movie-hero-actions {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+  }
+
+  .movie-hero-actions .hero-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .movie-hero-genres {
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+
+  .movie-player,
+  .card-player {
+    aspect-ratio: 16 / 9;
+    height: auto;
+  }
+
+  .player-close {
+    top: 0.5rem;
+    left: 0.5rem;
+    font-size: 0.8rem;
+    padding: 0.4rem 0.6rem;
+  }
+
+  .card-player-close {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+
+
+  .movie-page-body {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .movie-modal-rating {
+    padding: 1rem;
+  }
+
+  .imdb-title {
+    font-size: 0.85rem;
+  }
+
+  .imdb-score {
+    font-size: 1rem;
+  }
+
+  .user-rating h3 {
+    font-size: 0.95rem;
+  }
+
+  .rating-buttons {
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+
+  .rating-button {
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.75rem;
+  }
+
+  .watched-button {
+    width: 100%;
+    justify-content: center;
+    padding: 0.6rem;
+  }
+
+
+  .movie-page-detail,
+  .movie-page {
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 380px) {
+
+  .movies-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    padding: 0.75rem;
+  }
+
+  .hero-banner-content h1,
+  .movie-hero-info h1 {
+    font-size: 1.2rem;
+  }
+
+  .popular-poster {
+    width: 84px;
+  }
+
+  .rating-button {
+    width: 1.75rem;
+    height: 1.75rem;
+    font-size: 0.7rem;
+  }
+
+  .poster-trailer-btn span {
+    display: none;
+
+  }
+}
