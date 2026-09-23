@@ -1,5 +1,6 @@
+import type { SVGProps } from "react";
 
-const SvgComponent = (props) => (
+const SvgComponent = (props: SVGProps<SVGSVGElement>) => (
     <svg xmlns="http://www.w3.org/2000/svg" width={19} height={19} {...props}>
         <title>{"button-play-flat"}</title>
         <path
@@ -9,5 +10,6 @@ const SvgComponent = (props) => (
             clipRule="evenodd"
         />
     </svg>
-)
-export default SvgComponent
+);
+
+export default SvgComponent;

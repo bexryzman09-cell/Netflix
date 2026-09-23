@@ -1,4 +1,6 @@
-const SvgComponent = (props) => (
+import type { SVGProps } from "react";
+
+const SvgComponent = (props: SVGProps<SVGSVGElement>) => (
     <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} {...props}>
         <title>{"cup-star-linear"}</title>
         <g fill="none" stroke="currentColor" strokeWidth={1.5}>
@@ -13,5 +15,6 @@ const SvgComponent = (props) => (
             <path strokeLinecap="round" d="M18 22H6" />
         </g>
     </svg>
-)
-export default SvgComponent
+);
+
+export default SvgComponent;

@@ -54,12 +54,7 @@ function nextTargetFor(count: number) {
     return null
 }
 
-function isWatched(movie: Movie) {
-    return (
-        localStorage.getItem(`watched-${movie.title}-${movie.year}`) ===
-        "true"
-    )
-}
+
 
 export function useAchievements() {
     const { currentProfile } = useProfiles()
