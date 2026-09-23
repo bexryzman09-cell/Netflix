@@ -72,7 +72,7 @@ export default function ProfileButton({
                 />
                 <span className="hidden sm:inline text-white font-medium max-w-32 truncate">
                     {currentProfile.name}
-                </span>
+                </span>  
                 <span className="text-white/60 text-xs"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>alt-arrow-down-line-duotone</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m19 9l-7 6l-7-6" /></svg></span>
             </button>
 
