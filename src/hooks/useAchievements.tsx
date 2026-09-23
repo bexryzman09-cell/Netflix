@@ -1,6 +1,5 @@
 import { useMemo } from "react"
 import { MOVIES } from "../data/movis.data"
-import type { Movie } from "../components/FavoriteContext"
 import { useProfiles } from "../components/ProfileContext"
 export type Badge = {
     id: string
