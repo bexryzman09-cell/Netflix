@@ -109,7 +109,7 @@ export default function ProfileGatePage() {
 
                 {mode === "register" && (
                     <div className="max-w-sm mx-auto">
-                        <h1 className="text-white text-2xl sm:text-3xl font-semibold text-center mb-2">
+                        <h1 className= "flex text-white text-2xl sm:text-3xl font-semibold text-center mb-2">
                            Создать профиль
                         </h1>
                         <p className="text-white/50 text-center mb-8 text-sm sm:text-base">
