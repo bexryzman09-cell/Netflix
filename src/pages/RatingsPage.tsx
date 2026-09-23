@@ -1,7 +1,7 @@
 import MovieCard from "../components/MovieCard"
 import { MOVIES } from "../data/movis.data"
 import type { Movie } from "../components/FavoriteContext"
-
+import { useProfiles } from "../components/ProfileContext"
 type RatingsPageProps = {
     onBack: () => void
     onSelect: (
@@ -10,26 +10,48 @@ type RatingsPageProps = {
     ) => void
 }
 
-function getUserRating(movie: Movie): number | null {
+function getUserRating(
+    movie: Movie,
+    profileId: string
+): number | null {
     const saved = localStorage.getItem(
-        `movie-rating-${movie.title}-${movie.year}`
+        `movie-rating-${profileId}-${movie.title}-${movie.year}`
     )
+
     return saved ? Number(saved) : null
 }
 
-export default function RatingsPage({ onBack, onSelect }: RatingsPageProps) {
-    const rated = MOVIES.reduce<{ movie: Movie; userRating: number }[]>(
-        (acc, movie) => {
-            const userRating = getUserRating(movie)
+export default function RatingsPage({
+    onBack,
+    onSelect,
+}: RatingsPageProps) {
+    const { currentProfile } = useProfiles()
 
-            if (userRating !== null) {
-                acc.push({ movie, userRating })
-            }
+    const profileId = currentProfile?.id
 
-            return acc
-        },
-        []
-    ).sort((a, b) => b.userRating - a.userRating)
+    const rated = profileId
+        ? MOVIES.reduce<{ movie: Movie; userRating: number }[]>(
+            (acc, movie) => {
+                const userRating = getUserRating(
+                    movie,
+                    profileId
+                )
+
+                if (userRating !== null) {
+                    acc.push({
+                        movie,
+                        userRating,
+                    })
+                }
+
+                return acc
+            },
+            []
+        ).sort(
+            (a, b) =>
+                b.userRating - a.userRating
+        )
+        : []
 
     return (
         <div className="bg-black dark:text-white movie-page">

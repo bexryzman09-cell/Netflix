@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import MovieCard from "./components/MovieCard"
 import { MOVIES } from "./data/movis.data"
 import type { Movie } from "./components/FavoriteContext"
@@ -6,10 +6,8 @@ import HeroBanner from "./components/HeroBanner"
 import PopularRow from "./components/PopularRow"
 import ContinueWatchingRow from "./components/ContinueWatchinGrow"
 import { useFavorites } from "./components/FavoriteContext"
-import { ProfileProvider, useProfiles } from "./components/ProfileContext"
-import ProfileButton, {
-  type ProfileMenuPage,
-} from "./components/ProfileButton"
+import { useProfiles } from "./components/ProfileContext"
+import ProfileButton, { type ProfileMenuPage, } from "./components/ProfileButton"
 import ProfileGatePage from "./pages/ProfileGatePage"
 import ProfileSettingsPage from "./pages/ProfileSettingsPage"
 import WatchedPage from "./pages/WatchedPage"
@@ -42,23 +40,61 @@ type Page = "home" | ProfileMenuPage
 
 function AppContent() {
   const [seacrhTerm, setSearchTerm] = useState("")
-  const [page, setPage] = useState<Page>("home")
+  const [page, setPage] = useState<Page>(() => {
+    return (localStorage.getItem("currentPage") as Page) || "home"
+  })
+  useEffect(() => {
+    localStorage.setItem("currentPage", page)
+  }, [page])
   const [visibleMovies, setVisibleMovies] = useState(8)
-
   const [contentFilter, setContentFilter] = useState("all")
   const [sortBy, setSortBy] = useState("default")
-
   const [genreFilter, setGenreFilter] = useState("all")
   const [yearFilter, setYearFilter] = useState("all")
   const [ratingFilter, setRatingFilter] = useState(0)
-
   const [activeMovie, setActiveMovie] = useState<{
     movie: Movie
     mode: "details" | "movie" | "trailer"
-  } | null>(null)
+  } | null>(() => {
+    const saved = localStorage.getItem("activeMovie")
 
+    if (!saved) return null
+
+    try {
+      const data = JSON.parse(saved)
+
+      const movie = MOVIES.find(
+        (m) =>
+          m.title === data.title &&
+          m.year === data.year
+      )
+
+      if (!movie) return null
+
+      return {
+        movie,
+        mode: data.mode ?? "details",
+      }
+    } catch {
+      return null
+    }
+  })
+  useEffect(() => {
+    if (!activeMovie) {
+      localStorage.removeItem("activeMovie")
+      return
+    }
+
+    localStorage.setItem(
+      "activeMovie",
+      JSON.stringify({
+        title: activeMovie.movie.title,
+        year: activeMovie.movie.year,
+        mode: activeMovie.mode,
+      })
+    )
+  }, [activeMovie])
   const { currentProfile } = useProfiles()
-
   const {
     toggleFavorite,
     isFavorite,
@@ -552,11 +588,7 @@ function AppContent() {
 }
 
 function App() {
-  return (
-    <ProfileProvider>
-      <AppContent />
-    </ProfileProvider>
-  )
+  return <AppContent />
 }
 
 export default App

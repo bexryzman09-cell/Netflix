@@ -1,7 +1,7 @@
 import { useMemo } from "react"
 import { MOVIES } from "../data/movis.data"
 import type { Movie } from "../components/FavoriteContext"
-
+import { useProfiles } from "../components/ProfileContext"
 export type Badge = {
     id: string
     icon: string
@@ -45,7 +45,7 @@ function levelFor(count: number) {
 }
 
 function nextTargetFor(count: number) {
-    for (const tier of TIERS) { 
+    for (const tier of TIERS) {
         if (count < tier) {
             return tier
         }
@@ -62,13 +62,32 @@ function isWatched(movie: Movie) {
 }
 
 export function useAchievements() {
+    const { currentProfile } = useProfiles()
+
+    const profileId = currentProfile?.id
+
     return useMemo(() => {
-        const watched = MOVIES.filter(isWatched)
+        if (!profileId) {
+            return {
+                typeBadges: [],
+                genreBadges: [],
+                totalWatched: 0,
+            }
+        }
+
+        const watched = MOVIES.filter((movie) => {
+            return (
+                localStorage.getItem(
+                    `watched-${profileId}-${movie.title}-${movie.year}`
+                ) === "true"
+            )
+        })
 
         const typeBadges: Badge[] = TYPE_DEFS.map((def) => {
             const count = watched.filter(
                 (movie) => movie.type === def.type
             ).length
+
             const level = levelFor(count)
 
             return {
@@ -79,7 +98,9 @@ export function useAchievements() {
                 count,
                 level,
                 levelLabel:
-                    level > 0 ? TIER_LABELS[level - 1] : "Не получено",
+                    level > 0
+                        ? TIER_LABELS[level - 1]
+                        : "Не получено",
                 nextTarget: nextTargetFor(count),
             }
         })
@@ -88,6 +109,7 @@ export function useAchievements() {
             const count = watched.filter((movie) =>
                 movie.genres?.includes(def.genre)
             ).length
+
             const level = levelFor(count)
 
             return {
@@ -98,7 +120,9 @@ export function useAchievements() {
                 count,
                 level,
                 levelLabel:
-                    level > 0 ? TIER_LABELS[level - 1] : "Не получено",
+                    level > 0
+                        ? TIER_LABELS[level - 1]
+                        : "Не получено",
                 nextTarget: nextTargetFor(count),
             }
         })
@@ -108,5 +132,5 @@ export function useAchievements() {
             genreBadges,
             totalWatched: watched.length,
         }
-    }, [])
+    }, [profileId])
 }

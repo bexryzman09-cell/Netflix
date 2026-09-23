@@ -1,7 +1,7 @@
 import MovieCard from "../components/MovieCard"
 import { MOVIES } from "../data/movis.data"
 import type { Movie } from "../components/FavoriteContext"
-
+import { useProfiles } from "../components/ProfileContext"
 type WatchedPageProps = {
     onBack: () => void
     onSelect: (
@@ -10,18 +10,28 @@ type WatchedPageProps = {
     ) => void
 }
 
-export default function WatchedPage({ onBack, onSelect }: WatchedPageProps) {
-    const watched = MOVIES.filter(
-        (movie: Movie) =>
-            localStorage.getItem(`watched-${movie.title}-${movie.year}`) ===
-            "true"
-    )
+export default function WatchedPage({
+    onBack,
+    onSelect,
+}: WatchedPageProps) {
+    const { currentProfile } = useProfiles()
+
+    const profileId = currentProfile?.id
+
+    const watched = profileId
+        ? MOVIES.filter(
+            (movie: Movie) =>
+                localStorage.getItem(
+                    `watched-${profileId}-${movie.title}-${movie.year}`
+                ) === "true"
+        )
+        : []
 
     return (
         <div className="bg-black dark:text-white movie-page">
             <header className="movie-header">
                 <button type="button" onClick={onBack} className="theme-button">
-                    ←
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>alt-arrow-left-linear</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m15 5l-6 7l6 7" /></svg>
                 </button>
 
                 <h1 className="text-white">Просмотрено ✓</h1>

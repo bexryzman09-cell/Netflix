@@ -1,7 +1,7 @@
-import { useState, useEffect, useRef } from "react"
+import { useState, useEffect, useRef, useCallback, } from "react"
 import { useFavorites } from "../components/FavoriteContext"
 import { useWatchProgress } from "../components/WatchProgressContext"
-
+import { useProfiles } from "../components/ProfileContext"
 const TYPE_LABELS: Record<string, string> = {
     movie: "Фильм",
     series: "Сериал",
@@ -49,7 +49,11 @@ function loadVkApi(): Promise<void> {
 export default function MoviePage({ movie, initialMode = "details", onBack }: MoviePageProps) {
     const { toggleFavorite, isFavorite } = useFavorites()
 
-    const { saveProgress } = useWatchProgress()
+    const { saveProgress, removeProgress } = useWatchProgress()
+
+    const { currentProfile } = useProfiles()
+
+    const profileId = currentProfile?.id
 
     const hasVideo = Boolean(movie.video)
     const hasTrailer = Boolean(movie.trailerYoutubeId)
@@ -81,8 +85,18 @@ export default function MoviePage({ movie, initialMode = "details", onBack }: Mo
             const currentTime = data?.currentTime ?? data?.time ?? data?.position
             const duration = data?.duration ?? data?.total
 
-            if (typeof currentTime === "number" && typeof duration === "number" && duration > 0) {
+            if (
+                typeof currentTime === "number" &&
+                typeof duration === "number" &&
+                duration > 0
+            ) {
+                const percent = (currentTime / duration) * 100
+
                 saveProgress(movie, currentTime, duration)
+
+                if (percent >= 95) {
+                    markAsWatched()
+                }
             }
         }
 
@@ -95,23 +109,72 @@ export default function MoviePage({ movie, initialMode = "details", onBack }: Mo
         }
     }, [playing, movie.video])
 
-    const ratingKey = `movie-rating-${movie.title}-${movie.year}`
-    const [userRating, setUserRating] = useState<number | null>(() => {
-        const saved = localStorage.getItem(ratingKey)
-        return saved ? Number(saved) : null
-    })
+    const ratingKey = profileId
+        ? `movie-rating-${profileId}-${movie.title}-${movie.year}`
+        : null
+
+    const watchedKey = profileId
+        ? `watched-${profileId}-${movie.title}-${movie.year}`
+        : null
+
+    const [userRating, setUserRating] = useState<number | null>(null)
+    const [watched, setWatched] = useState(false)
+
+    useEffect(() => {
+        if (!profileId || !ratingKey || !watchedKey) {
+            setUserRating(null)
+            setWatched(false)
+            return
+        }
+
+        const savedRating = localStorage.getItem(ratingKey)
+        setUserRating(savedRating ? Number(savedRating) : null)
+
+        setWatched(
+            localStorage.getItem(watchedKey) === "true"
+        )
+    }, [profileId, ratingKey, watchedKey])
+
     const handleRating = (value: number) => {
+        if (!ratingKey) return
+
         setUserRating(value)
-        localStorage.setItem(ratingKey, value.toString())
+
+        localStorage.setItem(
+            ratingKey,
+            value.toString()
+        )
     }
 
-    const watchedKey = `watched-${movie.title}-${movie.year}`
-    const [watched, setWatched] = useState(() => localStorage.getItem(watchedKey) === "true")
     const toggleWatched = () => {
+        if (!watchedKey) return
+
         const next = !watched
+
         setWatched(next)
-        localStorage.setItem(watchedKey, next.toString())
+
+        localStorage.setItem(
+            watchedKey,
+            next.toString()
+        )
+
+        if (next) {
+            removeProgress(movie)
+        }
     }
+
+    const markAsWatched = useCallback(() => {
+        if (!watchedKey) return
+
+        setWatched(true)
+
+        localStorage.setItem(
+            watchedKey,
+            "true"
+        )
+
+        removeProgress(movie)
+    }, [watchedKey, removeProgress, movie])
 
     return (
         <div className="movie-page-detail">
@@ -165,8 +228,8 @@ export default function MoviePage({ movie, initialMode = "details", onBack }: Mo
 
                         <h1>{movie.title}</h1>
 
-                        <div className="movie-hero-meta">
-                            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>baseline-star-rate</title><path fill="currentColor" d="M14.43 10L12 2l-2.43 8H2l6.18 4.41L5.83 22L12 17.31L18.18 22l-2.35-7.59L22 10z" /></svg> {movie.rating}</span>
+                        <div className="movie-hero-meta ">
+                            <span className="flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>baseline-star-rate</title><path fill="currentColor" d="M14.43 10L12 2l-2.43 8H2l6.18 4.41L5.83 22L12 17.31L18.18 22l-2.35-7.59L22 10z" /></svg> {movie.rating}</span>
                             <span>{movie.year}</span>
                             {movie.russianTitle && <span>{movie.russianTitle}</span>}
                         </div>

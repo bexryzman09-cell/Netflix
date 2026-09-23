@@ -14,6 +14,7 @@ export default function FavoritePages({
     onSelect,
 }: FavoritePagesProps) {
     const { favorites } = useFavorites()
+    console.log(favorites)
 
     return (
         <div className="bg-black dark:text-white movie-page">
@@ -33,7 +34,7 @@ export default function FavoritePages({
 
             <div className="movies-container">
                 {favorites.length > 0 ? (
-                    favorites.map((movie: Movie, index: number) => (
+                    favorites.slice().reverse().map((movie: Movie, index: number) => (
                         <MovieCard
                             key={`${movie.title}-${movie.year}-${index}`}
                             image={movie.image}

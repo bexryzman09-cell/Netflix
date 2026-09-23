@@ -5,6 +5,7 @@ import {
     useState,
     type ReactNode,
 } from "react"
+import { useProfiles } from "./ProfileContext"
 
 export type Movie = {
     title: string
@@ -36,8 +37,26 @@ type FavoriteProviderProps = {
 export function FavoriteProvider({
     children,
 }: FavoriteProviderProps) {
+    const { currentProfile } = useProfiles()
+
+    const profileId = currentProfile?.id ?? null
+
+    const getStorageKey = () => {
+        if (!profileId) {
+            return null
+        }
+
+        return `favorites - ${profileId} `
+    }
+
     const [favorites, setFavorites] = useState<Movie[]>(() => {
-        const saved = localStorage.getItem("favorites")
+        if (!profileId) {
+            return []
+        }
+
+        const saved = localStorage.getItem(
+            `favorites - ${profileId} `
+        )
 
         if (!saved) {
             return []
@@ -51,13 +70,45 @@ export function FavoriteProvider({
     })
 
     useEffect(() => {
+        if (!profileId) {
+            setFavorites([])
+            return
+        }
+
+        const saved = localStorage.getItem(
+            `favorites - ${profileId} `
+        )
+
+        if (!saved) {
+            setFavorites([])
+            return
+        }
+
+        try {
+            setFavorites(JSON.parse(saved) as Movie[])
+        } catch {
+            setFavorites([])
+        }
+    }, [profileId])
+
+    useEffect(() => {
+        const key = getStorageKey()
+
+        if (!key) {
+            return
+        }
+
         localStorage.setItem(
-            "favorites",
+            key,
             JSON.stringify(favorites)
         )
-    }, [favorites])
+    }, [favorites, profileId])
 
     function toggleFavorite(movie: Movie) {
+        if (!profileId) {
+            return
+        }
+
         setFavorites((prev) => {
             const exists = prev.some(
                 (item) =>
@@ -111,3 +162,4 @@ export function useFavorites() {
 
     return context
 }
+
